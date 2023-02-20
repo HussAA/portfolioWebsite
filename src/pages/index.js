@@ -1,8 +1,11 @@
-import React from 'react'
+import * as React from 'react'
+import NavbarIndex from '../components/Navbar'
 
 const Index = () => {
   return (
-    <div>index</div>
+    <>
+    <div><NavbarIndex/></div>
+    </>
   )
 }
 
