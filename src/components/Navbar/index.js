@@ -15,10 +15,10 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar className="nav navbar navbar-dark bg-dark">
-          <NavbarBrand className="fs-3 fw-light" href="/">Hussain Alnakhli</NavbarBrand>
-          <NavbarToggler onClick={toggle}/>
-          <Collapse isOpen={isOpen} navbar>
+        <Navbar id="hideNav" className="navbar navbar-dark bg-dark">
+          <NavbarBrand className="fs-3" href="/">Hussain <br/> Alnakhli</NavbarBrand>
+          <NavbarToggler  onClick={toggle}/>
+          <Collapse id="toggler" isOpen={isOpen} navbar>
             <Nav className="me-auto" navbar>
               <NavItem>
                 <NavLink href="/components/">About Me</NavLink>

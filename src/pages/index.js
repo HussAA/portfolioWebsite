@@ -1,12 +1,23 @@
-import * as React from 'react'
-import NavbarIndex from '../components/Navbar'
+import * as React from "react";
+import NavbarIndex from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
 const Index = () => {
   return (
     <>
-    <div><NavbarIndex/></div>
-    </>
-  )
-}
+      <section>
+        <div>
+          <NavbarIndex />
+        </div>
+      </section>
 
-export default Index
+      <section>
+        <div>
+          <Sidebar/>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Index;

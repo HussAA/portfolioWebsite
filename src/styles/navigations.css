@@ -1,0 +1,50 @@
+#toggler{
+    transition: .3s;
+}
+.firstname {
+    font-family:system-ui;
+    font-size: 25px;
+    padding-left: 65px;
+    color: white;
+}
+.lastname {
+    font-family: system-ui;
+    font-size: 27px;
+    padding-bottom: 50px;
+    padding-left: 65px;
+    color: white;
+}
+.sidebar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 20px 0px 0px 0px;
+    background-color:currentColor
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+a:hover{
+    transition: .3s;
+}
+
+@media screen and (min-width: 900px){
+    #hideNav {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .sidebar {
+        display: none;
+    }
+}
