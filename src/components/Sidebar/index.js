@@ -14,34 +14,35 @@ const Sidebar = () => {
               <span>About Me</span>
             </i>
           </a>
-
+            <hr className="line w-100" />
           <a href="/Projects/" className="item link mb-5">
             <i className="bi bi-stack">
               <br/>
               <span>Projects</span>
             </i>
           </a>
-
+          <hr className="line w-100" />
           <a href="/Experience/" className="item link mb-5">
             <i className="bi bi-lightbulb-fill">
               <br />
               <span>Experience</span>
             </i>
           </a>
-
+          <hr className="line w-100" />
           <a href="/Eductaion/" className="item link mb-5">
             <i className="bi bi-building-fill">
               <br />
               <span>Education</span>
             </i>
           </a>
-
-          <a href="/Contact/" className="item link">
+          <hr className="line w-100" />
+          <a href="/Contact/" className="item link mb-5">
             <i className="bi bi-envelope-plus">
               <br />
               <span>Contact Me</span>
             </i>
           </a>
+          <hr className="line w-100" />
         </div>
       </div>
     </>

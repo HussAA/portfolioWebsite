@@ -11,13 +11,17 @@
     transition: 0.3s;
     transform: scale(1.05,1.05);
 }
-.social {
-    margin-left: 78px;
-    font-size: 20px;
+#social {
+    font-size: 25px;
+    padding-inline: 5px;
+    margin-right: 20px;
+}
+.line{
+    color: rgb(134, 134, 134);
 }
 .Sidelogo {
-    width: 270px;
-    padding: 30px 40px 110px 0px;
+    width: 255px;
+    padding: 20px 40px 70px 0px;
 }
 
 .Navlogo {
@@ -30,7 +34,7 @@ NavItem:hover {
 
 .sidebar {
     height: 100%;
-    width: 230px;
+    width: 215px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -54,7 +58,7 @@ a.item:hover{
 }
 
 @media screen and (max-width: 991px){
-    .social{
+    #social{
         display: none;
     }
 }

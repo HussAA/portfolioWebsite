@@ -55,17 +55,19 @@ const NavbarIndex = () => {
                   Contact Me
                 </NavLink>
               </NavItem>
-
-              <NavItem className="social">
-                <NavLink
-                  id="navitem"
-                  target="_blank"
-                  href="https://github.com/HussAA"
-                >
-                  <i className="bi bi-github" />
-                </NavLink>
-              </NavItem>
             </Nav>
+            <div>
+              <div>
+                <a target="_blank" id="social" href="mailto:mah.hussaina@gmail.com">
+                  <i className="bi bi-envelope" />
+                </a>
+              </div>
+              <div>
+                <a target="_blank" id="social" href="https://github.com/HussAA">
+                  <i className="bi bi-github" />
+                </a>
+              </div>
+            </div>
           </Collapse>
         </Navbar>
       </div>
