@@ -1,19 +1,33 @@
 #toggler{
     transition: .3s;
 }
-.firstname {
-    font-family:system-ui;
-    font-size: 25px;
-    padding-left: 65px;
-    color: white;
+#navitem{
+    font-size: 17px;
+    padding-inline: 30px;
+    color: #a06001;
 }
-.lastname {
-    font-family: system-ui;
-    font-size: 27px;
-    padding-bottom: 50px;
-    padding-left: 65px;
-    color: white;
+#navitem:hover{
+    color: #744500;
+    transition: 0.3s;
+    transform: scale(1.05,1.05);
 }
+.social {
+    margin-left: 78px;
+    font-size: 20px;
+}
+.Sidelogo {
+    width: 270px;
+    padding: 30px 40px 110px 0px;
+}
+
+.Navlogo {
+    width: 120px;
+}
+
+NavItem:hover {
+    color: blue;
+}
+
 .sidebar {
     height: 100%;
     width: 230px;
@@ -25,26 +39,33 @@
     padding: 20px 0px 0px 0px;
     background-color:currentColor
 }
-a {
+a.item {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #a06001;
     display: block;
 }
 
-a:hover{
-    transition: .3s;
+a.item:hover{
+    transition: 0.3s ease-in-out;
+    color: #744500;
+    transform: scale(1.05,1.05);
 }
 
-@media screen and (min-width: 900px){
+@media screen and (max-width: 991px){
+    .social{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200.6px){
     #hideNav {
        display: none;
     }
 }
 
-@media screen and (max-width: 900px){
-    .sidebar {
+@media screen and (max-width: 1200.5px){
+    #hideside {
         display: none;
     }
 }

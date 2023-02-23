@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../../assets/images/Logo.png";
 import {
   Collapse,
   Navbar,
@@ -15,29 +16,54 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar id="hideNav" className="navbar navbar-dark bg-dark">
-          <NavbarBrand className="fs-3" href="/">Hussain <br/> Alnakhli</NavbarBrand>
-          <NavbarToggler  onClick={toggle}/>
+        <Navbar
+          id="hideNav"
+          className="navbar navbar-expand-lg navbar-dark bg-dark shadow"
+        >
+          <NavbarBrand href="/">
+            <img className="Navlogo" src={Logo} />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
           <Collapse id="toggler" isOpen={isOpen} navbar>
-            <Nav className="me-auto" navbar>
+            <Nav className="text-center me-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">About Me</NavLink>
+                <NavLink id="navitem" href="/About/">
+                  About Me
+                </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/">Projects</NavLink>
+                <NavLink id="navitem" href="/Projects/">
+                  Projects
+                </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/">Experience</NavLink>
+                <NavLink id="navitem" href="/Experience/">
+                  Experience
+                </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/">Education</NavLink>
+                <NavLink id="navitem" href="/Education/">
+                  Education
+                </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/">Contact Me</NavLink>
+                <NavLink id="navitem" href="/Contact/">
+                  Contact Me
+                </NavLink>
+              </NavItem>
+
+              <NavItem className="social">
+                <NavLink
+                  id="navitem"
+                  target="_blank"
+                  href="https://github.com/HussAA"
+                >
+                  <i className="bi bi-github" />
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
