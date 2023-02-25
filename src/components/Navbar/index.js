@@ -18,12 +18,14 @@ const NavbarIndex = () => {
       <div>
         <Navbar
           id="hideNav"
-          className="navbar navbar-expand-lg navbar-dark bg-dark shadow"
+          className="navbar navbar-expand-lg"
         >
           <NavbarBrand href="/">
             <img className="Navlogo" src={Logo} />
           </NavbarBrand>
-          <NavbarToggler onClick={toggle} />
+
+          <NavbarToggler className="border-0" onClick={toggle} />
+
           <Collapse id="toggler" isOpen={isOpen} navbar>
             <Nav className="text-center me-auto" navbar>
               <NavItem>
@@ -31,34 +33,39 @@ const NavbarIndex = () => {
                   About Me
                 </NavLink>
               </NavItem>
-
+              <hr className="navbar-expand-lg line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="/Projects/">
                   Projects
                 </NavLink>
               </NavItem>
-
+              <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="/Experience/">
                   Experience
                 </NavLink>
               </NavItem>
-
+              <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="/Education/">
                   Education
                 </NavLink>
               </NavItem>
-
+              <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="/Contact/">
                   Contact Me
                 </NavLink>
               </NavItem>
+              
             </Nav>
             <div>
               <div>
-                <a target="_blank" id="social" href="mailto:mah.hussaina@gmail.com">
+                <a
+                  target="_blank"
+                  id="social"
+                  href="mailto:mah.hussaina@gmail.com"
+                >
                   <i className="bi bi-envelope" />
                 </a>
               </div>
