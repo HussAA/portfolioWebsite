@@ -5,19 +5,21 @@ const Sidebar = () => {
     <>
       <div id="hideside" className="sidebar">
         <div>
-          <a href="/"><img className="Sidelogo" src={Logo2} /></a>
+          <a href="/">
+            <img alt="Logo" className="Sidelogo" src={Logo2} />
+          </a>
         </div>
         <div>
           <a href="/About/" className="item link mb-5">
             <i className="bi bi-person-fill">
-              <br/>
+              <br />
               <span>About Me</span>
             </i>
           </a>
-            <hr className="line w-100 mb-5" />
+          <hr className="line w-100 mb-5" />
           <a href="/Projects/" className="item link mb-5">
             <i className="bi bi-stack">
-              <br/>
+              <br />
               <span>Projects</span>
             </i>
           </a>

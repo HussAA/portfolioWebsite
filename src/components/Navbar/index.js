@@ -16,12 +16,9 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar
-          id="hideNav"
-          className="navbar navbar-expand-lg"
-        >
+        <Navbar id="hideNav" className="navbar navbar-expand-lg">
           <NavbarBrand href="/">
-            <img className="Navlogo" src={Logo} />
+            <img alt="Logo" className="Navlogo" src={Logo} />
           </NavbarBrand>
 
           <NavbarToggler className="border-0" onClick={toggle} />
@@ -57,7 +54,6 @@ const NavbarIndex = () => {
                   Contact Me
                 </NavLink>
               </NavItem>
-              
             </Nav>
             <div>
               <div>
@@ -65,12 +61,18 @@ const NavbarIndex = () => {
                   target="_blank"
                   id="social"
                   href="mailto:mah.hussaina@gmail.com"
+                  rel="noreferrer"
                 >
-                  <i className="bi bi-envelope" />
+                  <i className="bi bi-envelope-plus" />
                 </a>
               </div>
               <div>
-                <a target="_blank" id="social" href="https://github.com/HussAA">
+                <a
+                  target="_blank"
+                  id="social"
+                  rel="noreferrer"
+                  href="https://github.com/HussAA"
+                >
                   <i className="bi bi-github" />
                 </a>
               </div>
