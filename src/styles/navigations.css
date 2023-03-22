@@ -4,27 +4,28 @@
 #navitem{
     font-size: 17px;
     padding-inline: 30px;
-    color: #a16101;
+    color: #cfcfcf;
     text-shadow: 2px 2px 10px #838282;
 }
 #navitem:hover{
-    color: #362100;
-    transition: 0.3s;
+    color: #6487d3;
+    transition: 0.2s;
     transform: scale(1.05,1.05);
 }
 #social {
     font-size: 25px;
     padding-inline: 5px;
     margin-right: 20px;
-    color: #1d1d1d;
+    color: #6487d3;
 }
 #social:hover, 
 #social:focus {
-    color: #838282;
+    color: #bbc3d3;
+    transition: .2s;
 }
 
 .navbar{
-    background: linear-gradient(to left, #b3b3b3, #d1d1d1);
+    background: linear-gradient(to left, #1d1d1d, #444444);
     box-shadow: 0px 1px 30px 12px #aaaaaa;
 }
 
@@ -32,19 +33,22 @@
     color: rgb(134, 134, 134);
 }
 .Sidelogo {
-    width: 255px;
-    padding: 20px 50px 60px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 180px;
+    padding: 20px 0px 80px 0px;
 }
 
 .Navlogo {
-    width: 90px;
+    width: 200px;
     margin-left: 8px;
 }
 
 
 .sidebar {
     height: 100%;
-    width: 215px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -52,7 +56,7 @@
     overflow: hidden;
     padding: 10px 0px 0px 0px;
     background: linear-gradient(to bottom, #1d1d1d, #444444);
-    box-shadow: 1px 0px 10px 10px rgb(146, 146, 146);
+    box-shadow: 2px 0px 15px 5px rgb(146, 146, 146);
 }
 a.item {
     text-align: center;
@@ -65,8 +69,8 @@ a.item {
 
 a.item:hover,
 a.item:focus{
-    transition: 0.3s;
-    color: #ce7b00;
+    transition: 0.2s;
+    color: #6487d3;
     transform: scale(1.03,1.03);
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/Logo2.png";
 import {
   Collapse,
   Navbar,
@@ -16,7 +16,7 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar id="hideNav" className="navbar navbar-expand-lg">
+        <Navbar id="hideNav" className="navbar navbar-expand-lg navbar-dark">
           <NavbarBrand href="/">
             <img alt="Logo" className="Navlogo" src={Logo} />
           </NavbarBrand>
