@@ -3,7 +3,7 @@ import Logo2 from "../../assets/images/Logo2.png";
 const Sidebar = () => {
   return (
     <>
-      <div id="hideside" className="sidebar">
+      <div id="hideside" className="container sidebar">
         <div>
           <a href="/">
             <img alt="Logo" className="Sidelogo" src={Logo2} />

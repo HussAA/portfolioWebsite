@@ -1,0 +1,28 @@
+.masthead {
+    height:50vh;
+    margin-top: auto;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom,
+        rgba(128, 90, 64, .6) 0%,
+        rgba(78, 51, 32, .6) 100%),
+      url("../assets/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+@media (min-width: 1299.6px) {
+    .masthead {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+}
+@media (max-width: 730px){
+    .masthead {
+        height: 35vh;
+    }
+}
+    

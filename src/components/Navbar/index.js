@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-
+import {Link} from 'gatsby'
 const NavbarIndex = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -26,7 +26,7 @@ const NavbarIndex = () => {
           <Collapse id="toggler" isOpen={isOpen} navbar>
             <Nav className="text-center me-auto" navbar>
               <NavItem>
-                <NavLink id="navitem" href="/About/">
+                <NavLink id="navitem" href="#About">
                   About Me
                 </NavLink>
               </NavItem>
