@@ -1,9 +1,9 @@
 .about-fill {
-    background-color:rgb(218, 209, 200);
+    background-color:rgb(238, 224, 211);
 }
 .about-button{
     background-color: rgb(28, 50, 110);
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 25px 25px 25px;
     padding: 7px 55px 7px 55px;
     font-family:sans-serif;
     font-size: 20px;

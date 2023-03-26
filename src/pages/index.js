@@ -21,7 +21,7 @@ const Index = () => {
       </header>
 
       <main>
-        <section className="about-fill"
+        <section id="About" className="about-fill"
           style={{
             paddingTop: "50px", 
             minHeight: 500,
@@ -30,7 +30,7 @@ const Index = () => {
             paddingBottom: "50px"
           }}
         >
-          <div id="About">
+          <div>
             <AboutMe />
           </div>
         </section>
