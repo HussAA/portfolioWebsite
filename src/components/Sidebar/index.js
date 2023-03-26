@@ -17,17 +17,17 @@ const Sidebar = () => {
             </i>
           </a>
           <hr className="line w-100 mb-5" />
-          <a href="/Projects/" className="item link mb-5">
+          <a href="/Experience/" className="item link mb-5">
             <i className="bi bi-stack">
               <br />
-              <span>Projects</span>
+              <span>Experience</span>
             </i>
           </a>
           <hr className="line w-100 mb-5" />
-          <a href="/Experience/" className="item link mb-5">
+          <a href="/Projects/" className="item link mb-5">
             <i className="bi bi-lightbulb-fill">
               <br />
-              <span>Experience</span>
+              <span>Projects</span>
             </i>
           </a>
           <hr className="line w-100 mb-5" />
