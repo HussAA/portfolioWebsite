@@ -1,16 +1,14 @@
 import * as React from "react";
-import {Button} from 'reactstrap'
+import { Button } from "reactstrap";
 const AboutMe = () => {
   return (
     <>
-      <div className="container margin-content">
+      <div className="container-full margin-content">
         <div className="row">
-          <div className="col-6 mb-5">
-            <h3>About Me.</h3>
-          </div>
-        </div>
-        <div className="row border-start border-dark p-3 pb-4 pt-4">
-          <div className="col">
+          <div className="about-padding col-xl-6 pb-5 border-start border-dark">
+            <div>
+              <h3 className="about-font pb-5">About Me.</h3>
+            </div>
             <p className="fs-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -21,10 +19,11 @@ const AboutMe = () => {
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </p>
+            <div>
+              <Button className="about-button">Contact Me</Button>
+            </div>
           </div>
-          <div>
-            <Button className="about-button">Contact Me</Button>
-          </div>
+          <div className="laptop-pic col-xl-6"></div>
         </div>
       </div>
     </>

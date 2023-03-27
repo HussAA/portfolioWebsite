@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <div className="laptop-pic">
+      <div className="">
 
       </div>
     </>

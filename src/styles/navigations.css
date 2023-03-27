@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 #toggler{
     transition: .3s;
@@ -13,10 +13,24 @@ html {
     white-space: nowrap;
 }
 #navitem:hover{
-    color: #6487d3;
     transition: 0.2s;
     transform: scale(1.05,1.05);
 }
+
+#navitem::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #6487d3;
+    transition: width .5s;
+}
+@media (min-width: 991.1px) {
+    #navitem:hover::after {
+    width:100%;
+}
+}
+
 #social {
     font-size: 25px;
     padding-inline: 5px;
@@ -42,7 +56,9 @@ html {
     margin-left: auto;
     display: block;
     width: 180px;
-    padding: 20px 0px 80px 0px;
+    padding: 30px 0px 5px 0px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgb(54, 54, 54);
 }
 
 .Navlogo {
@@ -53,7 +69,7 @@ html {
  
 .sidebar {
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -61,7 +77,7 @@ html {
     overflow: hidden;
     padding: 10px 0px 0px 0px;
     background: linear-gradient(to bottom, #1d1d1d, #444444);
-    box-shadow: 1px 1px 30px 2px #000000;
+    box-shadow: 1px 1px 25px 0px #000000;
 }
 a.item {
     text-align: center;
