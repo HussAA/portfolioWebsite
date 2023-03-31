@@ -13,7 +13,7 @@ const Sidebar = () => {
           <a href="#About" className="item link mb-5">
             <i className="bi bi-person-fill">
               <br />
-              <span>About Me</span>
+              <span>About</span>
             </i>
           </a>
           <hr className="line w-100 mb-4" />
@@ -41,7 +41,7 @@ const Sidebar = () => {
           <a href="/Contact/" className="item link mb-5">
             <i className="bi bi-envelope-plus">
               <br />
-              <span>Contact Me</span>
+              <span>Contact</span>
             </i>
           </a>
           <hr className="line w-100" />

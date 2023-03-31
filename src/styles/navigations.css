@@ -9,12 +9,14 @@ html {
     font-size: 17px;
     margin-inline: 15px;
     color: #cfcfcf;
-    text-shadow: 2px 2px 10px #838282;
+    text-shadow: 2px 2px 10px #050505;
     white-space: nowrap;
 }
 #navitem:hover{
     transition: 0.2s;
-    transform: scale(1.05,1.05);
+    color: #6487d3;
+    transform: scale(1.03,1.03);
+    
 }
 
 #navitem::after{

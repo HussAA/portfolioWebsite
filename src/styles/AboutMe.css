@@ -1,5 +1,5 @@
 .about-fill {
-    background-color:rgb(250, 248, 245);
+    background:rgba(197, 197, 197, 0.664)
 }
 .about-button{
     background-color: rgb(28, 50, 110);
@@ -38,7 +38,8 @@
 
 @media (min-width: 1299.6px) {
     .about-padding{
-        padding-left: 130px;
+        padding-left: 110px;
+        padding-right: 50px;
     }
     .margin-content{
         padding-left: 200px;
@@ -51,7 +52,10 @@
 
     }
     .laptop-pic{
-        min-height: 37rem;
+        min-height: 39rem;
+        display: block;
+        margin-left: auto;
+        width: 60vh;
     }
 }
 @media (max-width: 730px){
@@ -61,7 +65,7 @@
 }
 @media (max-width: 520px){
     .laptop-pic{
-        height: 35vh;
+        height: 32vh;
     }
     .about-padding{
         padding-left: 50px;

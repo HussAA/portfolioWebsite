@@ -27,7 +27,7 @@ const NavbarIndex = () => {
             <Nav className="text-center me-auto mx-5" navbar>
               <NavItem>
                 <NavLink id="navitem" href="#About">
-                  About Me
+                  About
                 </NavLink>
               </NavItem>
               <hr className="navbar-expand-lg line m-auto w-50 mb-0 mt-0" />
@@ -51,7 +51,7 @@ const NavbarIndex = () => {
               <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="/Contact/">
-                  Contact Me
+                  Contact
                 </NavLink>
               </NavItem>
             </Nav>

@@ -1,0 +1,10 @@
+.experince-logo{
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+    border-width: 1px;
+}
+.experince-item{
+    white-space: nowrap;
+}

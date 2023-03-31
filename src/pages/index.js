@@ -21,6 +21,7 @@ const Index = () => {
       </header>
 
       <main>
+
         <section
           id="About"
           className="about-fill"
@@ -32,6 +33,7 @@ const Index = () => {
             <AboutMe />
           </div>
         </section>
+
         <section
           style={{
             minHeight: 600,
@@ -42,6 +44,7 @@ const Index = () => {
             <Experience />
           </div>
         </section>
+        
       </main>
 
       <footer></footer>
