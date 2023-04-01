@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import FrontPage from "../components/FrontPage";
 import AboutMe from "../components/About";
 import Experience from "../components/Experience";
+import Projects from "../components/Projects";
 
 const Index = () => {
   return (
@@ -21,7 +22,6 @@ const Index = () => {
       </header>
 
       <main>
-
         <section
           id="About"
           className="about-fill"
@@ -35,6 +35,7 @@ const Index = () => {
         </section>
 
         <section
+          id="Experience"
           style={{
             minHeight: 600,
             marginBottom: "50px",
@@ -44,7 +45,17 @@ const Index = () => {
             <Experience />
           </div>
         </section>
-        
+        <section
+          id="Projects"
+          style={{
+            minHeight: 600,
+            marginBottom: "50px",
+          }}
+        >
+          <div>
+            <Projects />
+          </div>
+        </section>
       </main>
 
       <footer></footer>

@@ -32,13 +32,13 @@ const NavbarIndex = () => {
               </NavItem>
               <hr className="navbar-expand-lg line m-auto w-50 mb-0 mt-0" />
               <NavItem>
-                <NavLink id="navitem" href="/Experience/">
+                <NavLink id="navitem" href="#Experience">
                 Experience
                 </NavLink>
               </NavItem>
               <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
-                <NavLink id="navitem" href="/Projects/">
+                <NavLink id="navitem" href="#Projects">
                 Projects
                 </NavLink>
               </NavItem>
