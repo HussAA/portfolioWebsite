@@ -28,7 +28,7 @@ const Experience = () => {
 
           <div className="col-xl-6 mt-5 align-self-center all-content">
             <div className="row">
-              <div className="col-md-6 d-flex flex-nowrap mb-5 ">
+              <div className="col-md-6 d-flex flex-nowrap mb-3">
                 <div className="">
                   <i className="experince-logo bi bi-buildings" />
                 </div>
@@ -38,7 +38,7 @@ const Experience = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 d-flex flex-nowrap">
+              <div className="col-md-6 d-flex flex-nowrap mb-3">
                 <div className="">
                   <i className="experince-logo bi bi-buildings" />
                 </div>
@@ -50,7 +50,7 @@ const Experience = () => {
             </div>
 
             <div className="row">
-              <div className="col-md-6 d-flex flex-nowrap">
+              <div className="col-md-6 d-flex flex-nowrap mb-3">
                 <div className="">
                   <i className="experince-logo bi bi-buildings" />
                 </div>
@@ -59,7 +59,7 @@ const Experience = () => {
                   <p>incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
-              <div className="col-md-6 d-flex flex-nowrap">
+              <div className="col-md-6 d-flex flex-nowrap mb-3">
                 <div className="">
                   <i className="experince-logo bi bi-buildings" />
                 </div>

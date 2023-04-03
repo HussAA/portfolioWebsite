@@ -44,7 +44,7 @@
 @media (min-width: 1299.6px) {
     .about-padding{
         padding-left: 130px;
-        padding-right: 50px;
+        padding-right: 0px;
     }
     .margin-content{
         padding-left: 200px;
@@ -54,7 +54,7 @@
 @media (min-width: 1199.1px){
     .about-padding{
         padding-top: 50px;
-
+        padding-right: 10px;
     }
     .laptop-pic{
         min-height: 36rem;
