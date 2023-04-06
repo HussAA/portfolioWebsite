@@ -9,13 +9,15 @@
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: 0.3s;
 }
 .about-font{
-    font-size: 45px;
+    font-size: 65px;
+    color: rgb(1, 10, 63);
 }
 .about-button:hover{
     background-color: rgb(6, 24, 73);
-    transition: 0.3s;
+    
 }
 .about-padding{
     padding-left: 100px;
