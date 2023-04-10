@@ -1,0 +1,19 @@
+.edu-button{
+    width: 60px;
+    margin: 2px;
+    height: 7px;
+    background: rgb(138, 138, 138);
+    border-radius: 0px;
+    transition: 0.3s;
+    border: none;
+}
+.edu-button:hover {
+    background-color: rgb(50, 133, 189);
+    transition: 0.2s;
+}
+.edu-button:focus{
+    background: rgb(50, 133, 189);
+}
+.transition{
+    transition: 0.3s;
+}
