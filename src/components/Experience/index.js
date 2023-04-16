@@ -21,7 +21,7 @@ const Experience = () => {
                 cillum dolore eu fugiat nulla pariatur.
               </p>
               <div>
-                <Button className="experince-button">Contact Me</Button>
+                <Button href="#Contact" className="experince-button">Contact Me</Button>
               </div>
             </div>
           </div>

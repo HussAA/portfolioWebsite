@@ -6,6 +6,7 @@ import AboutMe from "../components/About";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Education from "../components/Education";
+import Contact from "../components/Contact";
 
 const Index = () => {
   return (
@@ -59,9 +60,16 @@ const Index = () => {
         <section
           id="Education"
           className="education-fill"
-          style={{ minHeight: 600, marginBottom: "200px" }}
+          style={{ minHeight: 600, marginBottom: "0px" }}
         >
           <Education />
+        </section>
+
+        <section
+          id="Contact"
+          style={{ minHeight: 600, marginBottom: "0px" }}
+        >
+          <Contact />
         </section>
       </main>
 

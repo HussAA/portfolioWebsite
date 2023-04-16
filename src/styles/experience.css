@@ -35,6 +35,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     transition: 0.3s;
+    white-space: nowrap;
 }
 .experince-button:hover{
     background-color: rgb(6, 24, 73);

@@ -20,7 +20,7 @@ const AboutMe = () => {
                 cillum dolore eu fugiat nulla pariatur.
               </p>
               <div>
-                <Button className="about-button">Contact Me</Button>
+                <Button href="#Contact" className="about-button">Contact Me</Button>
               </div>
             </div>
           </div>

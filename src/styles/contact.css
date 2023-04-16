@@ -1,0 +1,106 @@
+@media (min-width:1199.1px) {
+    .contact-pic {
+        margin: auto;
+        display: block;
+        height:40vh;
+        width:40vh;
+        padding-top: 10rem;
+        background: url("../assets/images/contact.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+
+.contact-button{
+    background-color: rgb(28, 50, 110);
+    border-radius: 0px;
+    padding: 7px 55px 7px 55px;
+    font-family:sans-serif;
+    font-size: 20px;
+    margin: 6px 50px 16px 50px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.contact-button:hover{
+    background-color: rgb(6, 24, 73);
+    
+}
+.contact-title{
+    font-size: 65px;
+    color: rgb(1, 10, 63);
+}
+.contact-padding{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+input,textarea{
+    width: 85%;
+    padding: 12px 12px ;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin: 6px 80px 16px 50px;
+    transition: 0.17s;
+}
+textarea{
+    min-height: 120px;
+    max-height: 200px;
+    padding: 12px 12px 80px 12px;
+}
+input:hover,textarea:hover{
+    border-color: #7e7e7e;
+}
+
+@media (min-width:1299.1px) {
+    .contact-margin{
+        padding-left: 270px;
+    }    
+}
+
+@media (max-width:575px) {
+    .contact-padding{
+        padding-left: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* target placeholder in all input fields */
+.form-control::-webkit-input-placeholder {
+    /* change color to red */
+    color: rgb(167, 167, 167);
+  }
+  
+.form-control:-moz-placeholder {
+    /* change color to red */
+    color: rgb(167, 167, 167);
+}
+  
+.form-control::-moz-placeholder {
+    /* change color to red */
+    color: rgb(167, 167, 167);
+}
+  
+.form-control:-ms-input-placeholder {
+    /* change color to red */
+    color: rgb(167, 167, 167);
+}

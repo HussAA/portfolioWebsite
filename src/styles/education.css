@@ -39,6 +39,7 @@
     border-radius: 0px;
     transition: 0.3s;
     border: none;
+    white-space: nowrap;
 }
 
 .first-button{

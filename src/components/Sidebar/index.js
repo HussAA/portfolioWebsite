@@ -31,7 +31,7 @@ const Sidebar = () => {
             </i>
           </a>
           <hr className="line w-100 mb-5" />
-          <a href="#Eductaion" className="item link mb-5">
+          <a href="#Education" className="item link mb-5">
             <i className="bi bi-building-fill">
               <br />
               <span>Education</span>
