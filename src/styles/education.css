@@ -1,11 +1,47 @@
+.fade-in {
+    animation: fade-in 2s;
+
+}
+  
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.education-fill{
+    background-color: rgb(3, 21, 46);
+}
+.education-title-font{
+    font-size: 65px;
+    color: white;
+}
+
+.education-padding{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 75px;
+}
+.edu-border{
+    border-left: 2px solid rgb(50, 133, 189);
+}
+.edu-min-height{
+    min-height: 200px;
+}
 .edu-button{
     width: 60px;
     margin: 2px;
-    height: 7px;
-    background: rgb(138, 138, 138);
+    height: 6px;
+    background: rgb(86, 106, 134);
     border-radius: 0px;
     transition: 0.3s;
     border: none;
+}
+
+.first-button{
+    background: rgb(50, 133, 189);
 }
 .edu-button:hover {
     background-color: rgb(50, 133, 189);
@@ -14,6 +50,7 @@
 .edu-button:focus{
     background: rgb(50, 133, 189);
 }
+
 .transition{
     transition: 0.3s;
 }

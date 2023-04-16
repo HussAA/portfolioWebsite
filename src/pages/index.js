@@ -5,6 +5,7 @@ import FrontPage from "../components/FrontPage";
 import AboutMe from "../components/About";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
+import Education from "../components/Education";
 
 const Index = () => {
   return (
@@ -49,11 +50,18 @@ const Index = () => {
           style={{
             minHeight: 600,
             marginBottom: "50px",
-            marginLeft:"50px",
-            marginRight: "50px"
+            marginLeft: "50px",
+            marginRight: "50px",
           }}
         >
           <Projects />
+        </section>
+        <section
+          id="Education"
+          className="education-fill"
+          style={{ minHeight: 600, marginBottom: "200px" }}
+        >
+          <Education />
         </section>
       </main>
 
