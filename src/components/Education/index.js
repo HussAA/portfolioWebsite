@@ -7,7 +7,7 @@ const Education = () => {
   const [thirdSlide, setThirdSlide] = React.useState(false);
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid education-margin">
         <div className="row">
           <div className="education-padding">
             <div>

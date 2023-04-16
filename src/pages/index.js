@@ -38,7 +38,7 @@ const Index = () => {
           className="experience-fill"
           style={{
             minHeight: 600,
-            marginBottom: "100px",
+            marginBottom: "80px",
           }}
         >
           <Experience />

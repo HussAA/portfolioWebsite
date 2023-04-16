@@ -23,6 +23,7 @@
     padding-left: 80px;
     padding-right: 60px;
     padding-top: 75px;
+    padding-bottom: 40px;
 }
 .edu-border{
     border-left: 2px solid rgb(50, 133, 189);
@@ -53,4 +54,21 @@
 
 .transition{
     transition: 0.3s;
+}
+
+@media (min-width: 1299.6px) {
+    .education-margin{
+        padding-left: 270px;
+        padding-right: 50px;
+    }
+}
+@media (max-width:950px) {
+    .edu-min-height{
+        min-height: 250px;
+    }
+}
+@media (max-width:630px) {
+    .edu-min-height{
+        min-height: 400px;
+    }
 }
