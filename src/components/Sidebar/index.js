@@ -10,7 +10,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div>
-          <a href="#About" className="item link mb-5">
+          <a href="#About" className="item link mb-4 mt-4">
             <i className="bi bi-person-fill">
               <br />
               <span>About</span>

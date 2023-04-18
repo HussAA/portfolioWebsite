@@ -1,121 +1,118 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-#toggler{
-    transition: .3s;
+#toggler {
+  transition: 0.3s;
 }
-#navitem{
-    font-size: 17px;
-    margin-inline: 15px;
-    color: #cfcfcf;
-    text-shadow: 2px 2px 10px #050505;
-    white-space: nowrap;
-    transition: 0.2s;
+#navitem {
+  font-size: 17px;
+  margin-inline: 15px;
+  color: #cfcfcf;
+  text-shadow: 2px 2px 10px #050505;
+  white-space: nowrap;
+  transition: 0.2s;
 }
-#navitem:hover{
-    color: #6487d3;
-    transform: scale(1.03,1.03);
-    
+#navitem:hover {
+  color: #6487d3;
+  transform: scale(1.03, 1.03);
 }
 
-#navitem::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #6487d3;
-    transition: width .5s;
+#navitem::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #6487d3;
+  transition: width 0.5s;
 }
 @media (min-width: 991.1px) {
-    #navitem:hover::after {
-    width:100%;
-}
+  #navitem:hover::after {
+    width: 100%;
+  }
 }
 
 #social {
-    font-size: 25px;
-    padding-inline: 5px;
-    margin-right: 20px;
-    color: #6487d3;
-    transition: .3s;
+  font-size: 25px;
+  padding-inline: 5px;
+  margin-right: 20px;
+  color: #6487d3;
+  transition: 0.3s;
 }
-#social:hover, 
+#social:hover,
 #social:focus {
-    color: #bbc3d3;
-    
+  color: #bbc3d3;
 }
 
-.navbar{
-    background: linear-gradient(to left, #1d1d1d, #444444);
-    box-shadow: 0px 1px 30px 8px #000000;
+.navbar {
+  background: linear-gradient(to left, #1d1d1d, #444444);
+  box-shadow: 0px 1px 30px 8px #000000;
 }
 
-.line{
-    color: rgb(134, 134, 134);
+.line {
+  color: rgb(134, 134, 134);
 }
 .Sidelogo {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    width: 180px;
-    padding: 20px 0px 5px 0px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid rgb(54, 54, 54);
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 180px;
+  padding: 20px 0px 5px 0px;
+  border-bottom: 1px solid rgb(54, 54, 54);
 }
 
 .Navlogo {
-    width: 200px;
-    margin-left: 8px;
+  width: 200px;
+  margin-left: 8px;
 }
 
- 
 .sidebar {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    padding: 10px 0px 0px 0px;
-    background: linear-gradient(to bottom, #1d1d1d, #444444);
-    box-shadow: 1px 1px 25px 0px #000000;
+  height: 100vh;
+  width: 250px;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  background: linear-gradient(to bottom, #1d1d1d, #444444);
+  box-shadow: 1px 1px 25px 0px #000000;
 }
 a.item {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    color: #cfcfcf;
-    display: block;
-    text-shadow: 3px 3px 8px 10px #331f00;
-    transition: 0.2s;
-
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #cfcfcf;
+  display: block;
+  text-shadow: 3px 3px 8px 10px #331f00;
+  transition: 0.2s;
 }
 
 a.item:hover,
-a.item:focus{
-    color: #6487d3;
-    transform: scale(1.03,1.03);
+a.item:focus {
+  color: #6487d3;
+  transform: scale(1.03, 1.03);
 }
 
-@media screen and (max-width: 991px){
-    #social{
-        display: none;
-    }
+@media screen and (max-width: 991px) {
+  #social {
+    display: none;
+  }
 }
-@media screen and (min-width: 1299.6px){
-    #hideNav {
-       display: none;
-    }
-    
-}
-
-@media screen and (max-width: 1299.5px){
-    #hideside {
-        display: none;
-    }
-    
+@media screen and (min-width: 1299.6px) {
+  #hideNav {
+    display: none;
+  }
 }
 
-    
+@media screen and (max-width: 1299.5px) {
+  #hideside {
+    display: none;
+  }
+}
+
+@media (max-width: 2000px) {
+  html {
+    overflow-x: hidden;
+  }
+}

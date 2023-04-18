@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Input, FormGroup, Button } from "reactstrap";
+import { Button } from "reactstrap";
 const Contact = () => {
   return (
     <>
@@ -12,10 +12,15 @@ const Contact = () => {
             <div className="border-start border-dark border-2 ps-1 pt-4 pb-4">
               <form>
                 <input name="name" placeholder="Name*" type="text" />
-
                 <input name="email" placeholder="Email*" type="email" />
                 <input name="subject" placeholder="Subject*" type="text" />
-                <textarea name="question" placeholder="How can I help?*" type="text" rows="4" cols="50"/>
+                <textarea
+                  name="question"
+                  placeholder="How can I help?*"
+                  type="text"
+                  rows="4"
+                  cols="50"
+                />
                 <Button className="contact-button">Send Message</Button>
               </form>
             </div>
