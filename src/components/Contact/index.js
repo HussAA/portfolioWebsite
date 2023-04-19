@@ -9,7 +9,7 @@ const Contact = () => {
             <div>
               <h1 className="contact-title pb-5">Contact.</h1>
             </div>
-            <div className="border-start border-dark border-2 ps-1 pt-4 pb-4">
+            <div className="border-start border-dark border-2 pt-4 pb-4">
               <form>
                 <input name="name" placeholder="Name*" type="text" />
                 <input name="email" placeholder="Email*" type="email" />

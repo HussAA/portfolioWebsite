@@ -9,7 +9,7 @@ const AboutMe = () => {
             <div>
               <h3 className="about-font pb-5">About.</h3>
             </div>
-            <div className="border-start border-dark border-2 ps-3 pt-4 pb-4">
+            <div className="border-start border-dark border-2 ps-4 pt-4 pb-4">
               <p className="fs-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

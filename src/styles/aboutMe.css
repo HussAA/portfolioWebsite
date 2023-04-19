@@ -1,5 +1,5 @@
 .about-fill {
-    background:rgba(216, 216, 216, 0.664)
+    background:rgba(199, 199, 199, 0.795)
 }
 .about-button{
     background-color: rgb(28, 50, 110);
@@ -20,14 +20,14 @@
     
 }
 .about-padding{
-    padding-left: 100px;
+    padding-left: 80px;
     padding-right: 100px;
     padding-top: 75px;
 }
 .laptop-pic {
     height:50vh;
-    margin-top: auto;
-    padding-top: 10rem;
+    
+    
     padding-bottom: calc(10rem - 4.5rem);
     background: linear-gradient(to bottom,
         rgba(64, 53, 165, 0.2) 0%,
@@ -55,11 +55,11 @@
 }
 @media (min-width: 1199.1px){
     .about-padding{
-        padding-top: 50px;
+        padding-top: 30px;
         padding-right: 10px;
     }
     .laptop-pic{
-        min-height: 36rem;
+        height: auto;
         display: block;
         margin-left: auto;
         width: 55vh;

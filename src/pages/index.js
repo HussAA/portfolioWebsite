@@ -33,30 +33,28 @@ const Index = () => {
         >
           <AboutMe />
         </section>
-
+        <section
+          id="Projects"
+          className="project-fill"
+          style={{
+            minHeight: 600,
+            paddingTop: "80px",
+            
+          }}
+        >
+          <Projects />
+        </section>
         <section
           id="Experience"
           className="experience-fill"
           style={{
             minHeight: 600,
-            marginBottom: "80px",
+            
           }}
         >
           <Experience />
         </section>
 
-        <section
-          id="Projects"
-          className="projects-fill"
-          style={{
-            minHeight: 600,
-            marginBottom: "50px",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
-        >
-          <Projects />
-        </section>
         <section
           id="Education"
           className="education-fill"
@@ -65,10 +63,7 @@ const Index = () => {
           <Education />
         </section>
 
-        <section
-          id="Contact"
-          style={{ minHeight: 600, marginBottom: "0px" }}
-        >
+        <section id="Contact" style={{ minHeight: 500, marginBottom: "0px" }}>
           <Contact />
         </section>
       </main>

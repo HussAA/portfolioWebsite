@@ -1,15 +1,14 @@
 @media (min-width:1199.1px) {
     .contact-pic {
-        margin: auto;
+        margin-left: auto;
+        margin-bottom: auto;
         display: block;
-        height:40vh;
-        width:40vh;
-        padding-top: 10rem;
+        height: 90vh;
+        max-width: 65vh;
         background: url("../assets/images/contact.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
     }
 }
 
@@ -33,10 +32,10 @@
     color: rgb(1, 10, 63);
 }
 .contact-padding{
-    padding-left: 80px;
-    padding-right: 60px;
+    padding-left: 60px;
+    padding-right: 30px;
     padding-top: 75px;
-    padding-bottom: 40px;
+    
 }
 input,textarea{
     width: 85%;
@@ -60,11 +59,17 @@ input:hover,textarea:hover{
     .contact-margin{
         padding-left: 270px;
     }    
+    .contact-padding{
+        padding-right: 10px;
+    }
 }
 
 @media (max-width:575px) {
     .contact-padding{
         padding-left: 50px;
+    }
+    .contact-margin{
+        margin-bottom: 80px;
     }
 }
 

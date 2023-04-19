@@ -45,6 +45,7 @@ const Sidebar = () => {
             </i>
           </a>
           <hr className="line w-100" />
+          
         </div>
       </div>
     </>
