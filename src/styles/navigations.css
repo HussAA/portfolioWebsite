@@ -68,7 +68,7 @@ html {
 
 .sidebar {
   height: 150vh;
-  width: 250px;
+  width: 240px;
   z-index: 1;
   position: fixed;
   top: 0;
