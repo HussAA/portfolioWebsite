@@ -15,7 +15,9 @@ const Education = () => {
             </div>
             <div className="edu-border ps-3 pt-4 pb-4">
               <div className="edu-min-height">
-                <span className={slide && "fade-in"}>
+                <span className={classNames({
+                    "fade-in": slide,
+                  })}>
                   {slide && (
                     <p className="fs-5 text-white">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -29,7 +31,11 @@ const Education = () => {
                     </p>
                   )}
                 </span>
-                <span className={secSlide && "fade-in"}>
+                <span
+                  className={classNames({
+                    "fade-in": secSlide,
+                  })}
+                >
                   {secSlide && (
                     <p className="fs-5 text-white">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -39,7 +45,9 @@ const Education = () => {
                     </p>
                   )}
                 </span>
-                <span className={thirdSlide && "fade-in"}>
+                <span className={classNames({
+                    "fade-in": thirdSlide,
+                  })}>
                   {thirdSlide && (
                     <p className="fs-5 text-white">
                       Duis aute irure dolor in reprehenderit in voluptate velit

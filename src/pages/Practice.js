@@ -1,85 +1,53 @@
-import React from "react";
-import { Button } from "reactstrap";
+// import React, { useState, useEffect } from 'react';
+// const App = () => {
+// const [title, setTitle] = useState('');
+// const [body, setBody] = useState('');
+// const [posts, setPosts] = useState('');
+// // ...
+// const addPosts = async (title, body) => {
+//    await fetch('http://localhost:3000/sendEmail', {
+//       method: 'POST',
+//       body: JSON.stringify({
+//          title: title,
+//          body: body,
+//          userId: Math.random().toString(36).slice(2),
+//       }),
+//       headers: {
+//          'Content-type': 'application/json; charset=UTF-8',
+//       },
+//    })
+//       .then((response) => response.json())
+//       .then((data) => {
+//          setPosts((posts) => [data, ...posts]);
+//          setTitle('');
+//          setBody('');
+//       })
+//       .catch((err) => {
+//          console.log(err.message);
+//       });
+// };
 
-const Contact = () => {
-  const [form, setForm] = React.useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+// const handleSubmit = (e) => {
+//    e.preventDefault();
+//    addPosts(title, body);
+// };    
 
-  const handleClick = () => {
-    setForm({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-    console.log("the link was clicked");
-  };
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm((prevForm) => ({ ...prevForm, [name]: value }));
-  };
-  return (
-    <>
-      <div className="container-fluid contact-margin">
-        <div className="row">
-          <div className="contact-padding col-xl-6">
-            <div>
-              <h1 className="contact-title pb-5">Contact.</h1>
-            </div>
-            <div className="border-start border-dark border-2 pt-4 pb-4">
-              <form>
-                <input
-                  onChange={handleChange}
-                  value={form.name}
-                  name="name"
-                  placeholder="Name*"
-                  type="text"
-                />
-                <input
-                onChange={handleChange}
-                  value={form.email}
-                  name="email"
-                  placeholder="Email*"
-                  type="email"
-                />
-                <input
-                  onChange={handleChange}
-                  value={form.subject}
-                  name="subject"
-                  placeholder="Subject*"
-                  type="text"
-                />
-                <textarea
-                  onChange={handleChange}
-                  value={form.message}
-                  name="message"
-                  placeholder="How can I help?*"
-                  type="text"
-                  rows="4"
-                  cols="50"
-                />
-                <div className="d-flex flex-inline">
-                  <div>
-                    <Button className="contact-button">Send Message</Button>
-                  </div>
-                  <div>
-                    <Button onClick={handleClick} className="contact-clear-btn">
-                      Clear
-                    </Button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div className="contact-pic col-xl-6"></div>
-        </div>
-      </div>
-    </>
-  );
-};
+// return (
+//    <div className="app">
+//       <div className="add-post-container">
+//          <form onSubmit={handleSubmit}>
+//             <input type="text" className="form-control" value={title}
+//                onChange={(e) => setTitle(e.target.value)}
+//             />
+//             <textarea name="" className="form-control" id="" cols="10" rows="8" 
+//                value={body} onChange={(e) => setBody(e.target.value)} 
+//             ></textarea>
+//             <button type="submit">Add Post</button>
+//          </form>
+//       </div>
+//       {/* ... */}
+//    </div>
+// );
+// };
 
-export default Contact;
+// export default App;

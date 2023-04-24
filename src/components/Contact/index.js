@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "reactstrap";
 
 const Contact = () => {
-  const [form, setForm] = React.useState({
-    name: "",
+  const [form, setForm] = useState({
+    full_name: "",
     email: "",
     subject: "",
     message: "",
   });
 
-  const handleClick = () => {
+  const handleClear = () => {
     setForm({
-      name: "",
+      full_name: "",
       email: "",
       subject: "",
       message: "",
@@ -22,6 +22,30 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm((prevForm) => ({ ...prevForm, [name]: value }));
   };
+
+  const addData = async (form) => {
+    await fetch("http://localhost:3000/sendEmail", {
+      method: "POST",
+      body: { form },
+
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    addData(form);
+  };
+
   return (
     <>
       <div className="container-fluid contact-margin">
@@ -31,13 +55,14 @@ const Contact = () => {
               <h1 className="contact-title pb-5">Contact.</h1>
             </div>
             <div className="border-start border-dark border-2 pt-4 pb-4">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <input
                   onChange={handleChange}
-                  value={form.name}
-                  name="name"
-                  placeholder="Name*"
+                  value={form.full_name}
+                  name="full_name"
+                  placeholder="Full Name*"
                   type="text"
+                  required
                 />
                 <input
                   onChange={handleChange}
@@ -45,12 +70,14 @@ const Contact = () => {
                   name="email"
                   placeholder="Email*"
                   type="email"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                 />
                 <input
                   onChange={handleChange}
                   value={form.subject}
                   name="subject"
-                  placeholder="Subject*"
+                  placeholder="Subject"
                   type="text"
                 />
                 <textarea
@@ -61,13 +88,16 @@ const Contact = () => {
                   type="text"
                   rows="4"
                   cols="50"
+                  required
                 />
                 <div className="d-flex flex-inline">
                   <div>
-                    <Button className="contact-button">Send Message</Button>
+                    <Button type="submit" className="contact-button">
+                      Send Message
+                    </Button>
                   </div>
                   <div>
-                    <Button onClick={handleClick} className="contact-clear-btn">
+                    <Button onClick={handleClear} className="contact-clear-btn">
                       Clear
                     </Button>
                   </div>
