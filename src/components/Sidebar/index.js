@@ -17,17 +17,17 @@ const Sidebar = () => {
             </i>
           </a>
           <hr className="line w-100 mb-5" />
-          <a href="#Experience" className="item link mb-5">
-            <i className="bi bi-stack">
-              <br />
-              <span>Experience</span>
-            </i>
-          </a>
-          <hr className="line w-100 mb-5" />
           <a href="#Projects" className="item link mb-5">
             <i className="bi bi-lightbulb-fill">
               <br />
               <span>Projects</span>
+            </i>
+          </a>
+          <hr className="line w-100 mb-5" />
+          <a href="#Experience" className="item link mb-5">
+            <i className="bi bi-stack">
+              <br />
+              <span>Experience</span>
             </i>
           </a>
           <hr className="line w-100 mb-5" />
@@ -45,7 +45,6 @@ const Sidebar = () => {
             </i>
           </a>
           <hr className="line w-100" />
-          
         </div>
       </div>
     </>
