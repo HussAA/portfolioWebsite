@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Portfolio-Website`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.hussainalnakhli.com`,
   },
   plugins: [],
 }
