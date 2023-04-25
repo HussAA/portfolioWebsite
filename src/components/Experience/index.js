@@ -7,7 +7,7 @@ const Experience = () => {
         <div className="row">
           <div className="experince-padding col-xl-6 pb-5">
             <div>
-              <h3 className="experince-font pb-5">Experience.</h3>
+              <div className="experince-font pb-5">Experience.</div>
             </div>
             <div className="border-start border-dark border-2 ps-4 pt-4 pb-4">
               <p className="fs-5">
@@ -33,7 +33,7 @@ const Experience = () => {
                   <i className="experince-logo bi bi-buildings" />
                 </div>
                 <div className="px-3">
-                  <h5>Web developer, Freelance</h5>
+                  <div className="fs-5 fw-bold">Web developer, Freelance</div>
                   <p>incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Experience = () => {
                   <i className="experince-logo bi bi-buildings" />
                 </div>
                 <div className="px-3">
-                  <h5>Web developer, Freelance</h5>
+                  <div className="fs-5 fw-bold">Web developer, Freelance</div>
                   <p>incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Experience = () => {
                   <i className="experince-logo bi bi-buildings" />
                 </div>
                 <div className="px-3">
-                  <h5>Web developer, Freelance</h5>
+                  <div className="fs-5 fw-bold">Web developer, Freelance</div>
                   <p>incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Experience = () => {
                   <i className="experince-logo bi bi-buildings" />
                 </div>
                 <div className="px-3">
-                  <h5>Web developer, Freelance</h5>
+                  <div className="fs-5 fw-bold">Web developer, Freelance</div>
                   <p>incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>

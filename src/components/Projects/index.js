@@ -6,7 +6,7 @@ const Projects = () => {
       <div className="container-fluid project-margin">
         <div className="row text-center">
           <div className="col">
-            <h1>Projects.</h1>
+            <div className="project-font">Projects.</div>
             <p style={{ color: "#787878" }}>
               Explore my portfolio of dynamic and responsive websites that
               prioritize user experience.
@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="project-card">
               <i className="project-logo bi bi-car-front" />
 
-              <h5> Limestone Car Detailing </h5>
+              <div className="project-card-title"> Limestone Car Detailing </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -31,7 +31,7 @@ const Projects = () => {
             <div className="project-card">
               <i className="project-logo bi bi-car-front" />
 
-              <h5> Limestone Car Detailing </h5>
+              <div className="project-card-title"> Limestone Car Detailing </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="project-card">
               <i className="project-logo bi bi-car-front" />
 
-              <h5> Limestone Car Detailing </h5>
+              <div className="project-card-title"> Limestone Car Detailing </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -55,7 +55,7 @@ const Projects = () => {
             <div className="project-card">
               <i className="project-logo bi bi-car-front" />
 
-              <h5> Limestone Car Detailing </h5>
+              <div className="project-card-title"> Limestone Car Detailing </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

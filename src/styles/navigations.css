@@ -1,6 +1,3 @@
-*{
-  overflow-x: hidden;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -59,9 +56,10 @@ html {
 .Sidelogo {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 60px;
   display: block;
   width: 180px;
-  padding: 20px 0px 5px 0px;
+  padding: 15px 0px 5px 0px;
   border-bottom: 1px solid rgb(54, 54, 54);
 }
 
@@ -71,7 +69,7 @@ html {
 }
 
 .sidebar {
-  height: 150vh;
+  height: 100vh;
   width: 240px;
   z-index: 1;
   position: fixed;
@@ -82,6 +80,7 @@ html {
   background: linear-gradient(to bottom, #1d1d1d, #444444);
   box-shadow: 1px 1px 25px 0px #000000;
 }
+
 a.item {
   text-align: center;
   text-decoration: none;
@@ -115,8 +114,4 @@ a.item:focus {
   }
 }
 
-@media (max-width: 9999px) {
-  html {
-    overflow-x: hidden;
-  }
-}
+

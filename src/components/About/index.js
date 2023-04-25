@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="row">
           <div className="about-padding col-xl-6 pb-5">
             <div>
-              <h3 className="about-font pb-5">About.</h3>
+              <div className="about-font pb-5">About.</div>
             </div>
             <div className="border-start border-dark border-2 ps-4 pt-4 pb-4">
               <p className="fs-5">

@@ -11,7 +11,7 @@ const Education = () => {
         <div className="row">
           <div className="education-padding">
             <div>
-              <h3 className="education-title-font pb-5">Education.</h3>
+              <div className="education-title-font pb-5">Education.</div>
             </div>
             <div className="edu-border ps-3 pt-4 pb-4">
               <div className="edu-min-height">

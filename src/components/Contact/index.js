@@ -51,60 +51,100 @@ const Contact = () => {
       <div className="container-fluid contact-margin">
         <div className="row">
           <div className="contact-padding col-xl-6">
-            <div>
-              <h1 className="contact-title pb-5">Contact.</h1>
-            </div>
-            <div className="border-start border-dark border-2 pt-4 pb-4">
-              <form onSubmit={handleSubmit}>
-                <input
-                  onChange={handleChange}
-                  value={form.full_name}
-                  name="full_name"
-                  placeholder="Full Name*"
-                  type="text"
-                  required
-                />
-                <input
-                  onChange={handleChange}
-                  value={form.email}
-                  name="email"
-                  placeholder="Email*"
-                  type="email"
-                  required
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                />
-                <input
-                  onChange={handleChange}
-                  value={form.subject}
-                  name="subject"
-                  placeholder="Subject"
-                  type="text"
-                />
-                <textarea
-                  onChange={handleChange}
-                  value={form.message}
-                  name="message"
-                  placeholder="How can I help?*"
-                  type="text"
-                  rows="4"
-                  cols="50"
-                  required
-                />
-                <div className="d-flex flex-inline">
-                  <div>
-                    <Button type="submit" className="contact-button">
-                      Send Message
-                    </Button>
-                  </div>
-                  <div>
-                    <Button onClick={handleClear} className="contact-clear-btn">
-                      Clear
-                    </Button>
-                  </div>
+            <div className="row">
+              <div className="col">
+                <div>
+                  <div className="contact-title pb-5">Contact.</div>
                 </div>
-              </form>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <div className="border-start border-dark border-2 pt-4 pb-5">
+                  <form onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col">
+                        <input
+                          className="contact-input-textarea"
+                          onChange={handleChange}
+                          value={form.full_name}
+                          name="full_name"
+                          placeholder="Full Name*"
+                          type="text"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col">
+                        <input
+                          className="contact-input-textarea"
+                          onChange={handleChange}
+                          value={form.email}
+                          name="email"
+                          placeholder="Email*"
+                          type="email"
+                          required
+                          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col">
+                        <input
+                          className="contact-input-textarea"
+                          onChange={handleChange}
+                          value={form.subject}
+                          name="subject"
+                          placeholder="Subject"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col">
+                        <textarea
+                          className="contact-input-textarea"
+                          onChange={handleChange}
+                          value={form.message}
+                          name="message"
+                          placeholder="How can I help?*"
+                          type="text"
+                          rows="4"
+                          cols="50"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col">
+                        <div className="d-flex flex-inline">
+                          <div className="row">
+                            <div className="col">
+                              <Button type="submit" className="contact-button">
+                                Send
+                              </Button>
+                            </div>
+                          </div>
+                          <div className="row">
+                            <div className="col">
+                              <Button
+                                onClick={handleClear}
+                                className="contact-clear-btn"
+                              >
+                                Clear
+                              </Button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
+
           <div className="contact-pic col-xl-6"></div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Sidebar = () => {
       <div id="hideside" className="container sidebar">
         <div>
           <a href="/">
-            <img alt="Logo" className="Sidelogo" src={Logo2} />
+            <img alt="Sidebar Logo" className="Sidelogo" src={Logo2} />
           </a>
         </div>
         <div>

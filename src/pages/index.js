@@ -64,7 +64,7 @@ const Index = () => {
           <Education />
         </section>
 
-        <section id="Contact" style={{ minHeight: 500, marginBottom: "150px" }}>
+        <section id="Contact">
           <Contact />
         </section>
       </main>

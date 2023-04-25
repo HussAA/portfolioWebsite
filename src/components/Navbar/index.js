@@ -24,7 +24,7 @@ const NavbarIndex = () => {
           <NavbarToggler className="border-0" onClick={toggle} />
 
           <Collapse id="toggler" isOpen={isOpen} navbar>
-            <Nav className="text-center me-auto mx-5" navbar>
+            <Nav className="text-center mx-auto me-auto mx-5" navbar>
               <NavItem>
                 <NavLink id="navitem" href="#About">
                   About
@@ -33,13 +33,13 @@ const NavbarIndex = () => {
               <hr className="navbar-expand-lg line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="#Experience">
-                Experience
+                  Experience
                 </NavLink>
               </NavItem>
               <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="#Projects">
-                Projects
+                  Projects
                 </NavLink>
               </NavItem>
               <hr className="line m-auto w-50 mb-0 mt-0" />
@@ -57,13 +57,8 @@ const NavbarIndex = () => {
             </Nav>
             <div>
               <div>
-                <a
-                  target="_blank"
-                  id="social"
-                  href="mailto:mah.hussaina@gmail.com"
-                  rel="noreferrer"
-                >
-                  <i className="bi bi-envelope-plus" />
+                <a target="_blank" id="social" rel="noreferrer" href="/">
+                  <i className="bi bi-linkedin" />
                 </a>
               </div>
               <div>

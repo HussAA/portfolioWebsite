@@ -1,53 +1,142 @@
-// import React, { useState, useEffect } from 'react';
+// import React, { useState } from "react";
+// import { Button } from "reactstrap";
 // const App = () => {
-// const [title, setTitle] = useState('');
-// const [body, setBody] = useState('');
-// const [posts, setPosts] = useState('');
-// // ...
-// const addPosts = async (title, body) => {
-//    await fetch('http://localhost:3000/sendEmail', {
-//       method: 'POST',
-//       body: JSON.stringify({
-//          title: title,
-//          body: body,
-//          userId: Math.random().toString(36).slice(2),
-//       }),
+//   const [form, setForm] = useState({
+//     full_name: "",
+//     email: "",
+//     subject: "",
+//     message: "",
+//   });
+
+//   const handleClear = () => {
+//     setForm({
+//       full_name: "",
+//       email: "",
+//       subject: "",
+//       message: "",
+//     });
+//     console.log("the link was clicked");
+//   };
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setForm((prevForm) => ({ ...prevForm, [name]: value }));
+//   };
+
+//   const addData = async (form) => {
+//     await fetch("http://localhost:3000/sendEmail", {
+//       method: "POST",
+//       body: { form },
+
 //       headers: {
-//          'Content-type': 'application/json; charset=UTF-8',
+//         "Content-type": "application/json; charset=UTF-8",
 //       },
-//    })
+//     })
 //       .then((response) => response.json())
 //       .then((data) => {
-//          setPosts((posts) => [data, ...posts]);
-//          setTitle('');
-//          setBody('');
+//         console.log(data);
 //       })
 //       .catch((err) => {
-//          console.log(err.message);
+//         console.log(err.message);
 //       });
-// };
+//   };
 
-// const handleSubmit = (e) => {
-//    e.preventDefault();
-//    addPosts(title, body);
-// };    
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     addData(form);
+//   };
+//   return (
+//     <div className="container-fluid contact-margin">
+//       <div className="row">
+//         <div className="contact-padding col-xl-6">
+//           <div className="row">
+//             <div className="col">
+//               <div>
+//                 <div className="contact-title pb-5">Contact.</div>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="row">
+//             <div className="col">
+//               <div className="border-start border-dark border-2 pt-4 pb-4">
+//                 <form onSubmit={handleSubmit}>
+//                   <div className="row">
+//                     <div className="col">
+//                       <input
+//                         onChange={handleChange}
+//                         value={form.full_name}
+//                         name="full_name"
+//                         placeholder="Full Name*"
+//                         type="text"
+//                         required
+//                       />
+//                     </div>
+//                   </div>
+//                   <div className="row">
+//                     <div className="col">
+//                       <input
+//                         onChange={handleChange}
+//                         value={form.email}
+//                         name="email"
+//                         placeholder="Email*"
+//                         type="email"
+//                         required
+//                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+//                       />
+//                     </div>
+//                   </div>
+//                   <div className="row">
+//                     <div className="col">
+//                       <input
+//                         onChange={handleChange}
+//                         value={form.subject}
+//                         name="subject"
+//                         placeholder="Subject"
+//                         type="text"
+//                       />
+//                     </div>
+//                   </div>
+//                   <div className="row">
+//                     <div className="col">
+//                       <textarea
+//                         onChange={handleChange}
+//                         value={form.message}
+//                         name="message"
+//                         placeholder="How can I help?*"
+//                         type="text"
+//                         rows="4"
+//                         cols="50"
+//                         required
+//                       />
+//                     </div>
+//                   </div>
+//                   <div className="row">
+//                     <div className="col">
+//                       <div className="d-flex flex-inline">
+//                         <div className="row">
+//                           <div className="col">
+//                             <Button type="submit" className="contact-button">
+//                               Send Message
+//                             </Button>
+//                           </div>
+//                         </div>
+//                         <div className="row">
+//                           <div className="col">
+//                             <Button onClick={handleClear} className="contact-clear-btn">Clear</Button>
+//                           </div>
+//                         </div>
+//                       </div>
+//                     </div>
+//                   </div>
+//                 </form>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
 
-// return (
-//    <div className="app">
-//       <div className="add-post-container">
-//          <form onSubmit={handleSubmit}>
-//             <input type="text" className="form-control" value={title}
-//                onChange={(e) => setTitle(e.target.value)}
-//             />
-//             <textarea name="" className="form-control" id="" cols="10" rows="8" 
-//                value={body} onChange={(e) => setBody(e.target.value)} 
-//             ></textarea>
-//             <button type="submit">Add Post</button>
-//          </form>
+//         <div className="contact-pic col-xl-6"></div>
 //       </div>
-//       {/* ... */}
-//    </div>
-// );
+//     </div>
+//   );
 // };
 
 // export default App;

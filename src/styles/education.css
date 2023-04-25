@@ -1,21 +1,51 @@
 .fade-in {
-    animation: fade-in 2s;
-
+-webkit-animation: fade-in 2s; /* Safari, Chrome, and Opera */
+-moz-animation: fade-in 2s; /* Firefox */
+-ms-animation: fade-in 2s; /* Internet Explorer */
+animation: fade-in 2s;
 }
-  
+
+@-webkit-keyframes fade-in {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
+@-moz-keyframes fade-in {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
+@-ms-keyframes fade-in {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
 @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
 }
 .education-fill{
     background-color: rgb(3, 21, 46);
 }
 .education-title-font{
-    font-size: 65px;
+    font-size: 50px;
+    font-weight: bold;
     color: white;
 }
 
@@ -71,5 +101,11 @@
 @media (max-width:630px) {
     .edu-min-height{
         min-height: 400px;
+    }
+    .education-padding{
+        padding-left: 50px;
+        padding-right: 60px;
+        padding-top: 75px;
+        padding-bottom: 40px;
     }
 }
