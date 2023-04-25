@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "reactstrap";
 
 const Contact = () => {
+  const [isSent, setIsSent] = useState(false);
   const [form, setForm] = useState({
     full_name: "",
     email: "",
@@ -26,7 +27,7 @@ const Contact = () => {
   const addData = async (form) => {
     await fetch("http://localhost:3000/sendEmail", {
       method: "POST",
-      body: { form },
+      body: JSON.stringify({ form }),
 
       headers: {
         "Content-type": "application/json; charset=UTF-8",
@@ -35,6 +36,7 @@ const Contact = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
+        setIsSent(true);
       })
       .catch((err) => {
         console.log(err.message);
@@ -121,9 +123,18 @@ const Contact = () => {
                         <div className="d-flex flex-inline">
                           <div className="row">
                             <div className="col">
-                              <Button type="submit" className="contact-button">
-                                Send
-                              </Button>
+                              {isSent ? (
+                                <Button className="contact-sent-btn" disabled>
+                                  <span className="contact-fade-in">Sent &#x2713;</span>
+                                </Button>
+                              ) : (
+                                <Button
+                                  type="submit"
+                                  className="contact-button"
+                                >
+                                  Send
+                                </Button>
+                              )}
                             </div>
                           </div>
                           <div className="row">
