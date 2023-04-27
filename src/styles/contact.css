@@ -108,7 +108,11 @@ input:hover,textarea:hover{
         margin-bottom: 80px;
     }
 }
-
+@media (max-width:1199px) {
+    .contact-margin{
+        margin-bottom: 80px;
+    }
+}
 
 
 
