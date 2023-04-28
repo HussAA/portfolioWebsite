@@ -6,9 +6,9 @@ module.exports = {
     title: `Hussain Alnakhli`,
     siteUrl: `https://www.hussainalnakhli.com`,
   },
-  plugins: [{
+  plugins: ['gatsby-plugin-react-helmet',
+  {
     resolve: `gatsby-plugin-manifest`,
-    resolve: 'gatsby-plugin-react-helmet',
     options: {
       icon: './src/assets/images/favicon.png',
     }
