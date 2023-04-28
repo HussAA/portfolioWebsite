@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   const addData = async (form) => {
-    await fetch("http://localhost:3000/sendEmail", {
+    await fetch("https://nydauhw2tzqvwxojwoxlugjx7i0yjzdb.lambda-url.us-east-2.on.aws/", {
       method: "POST",
       body: JSON.stringify({ form }),
 
