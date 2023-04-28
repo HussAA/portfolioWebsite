@@ -8,10 +8,13 @@ import Projects from "../components/Projects";
 import Education from "../components/Education";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-
+import { Helmet } from "react-helmet";
 const Index = () => {
   return (
     <>
+      <Helmet>
+        <title>Hussain Alnakhli</title>
+      </Helmet>
       <header>
         <section>
           <NavbarIndex />

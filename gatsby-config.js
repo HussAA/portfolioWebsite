@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [{
     resolve: `gatsby-plugin-manifest`,
+    resolve: 'gatsby-plugin-react-helmet',
     options: {
       icon: './src/assets/images/favicon.png',
     }
