@@ -25,12 +25,12 @@ const Contact = () => {
   };
 
   const addData = async (form) => {
-    await fetch("https://nydauhw2tzqvwxojwoxlugjx7i0yjzdb.lambda-url.us-east-2.on.aws/", {
+    await fetch("https://iyvtfduswobmzt2wa5fktqltrq0lddtr.lambda-url.us-east-2.on.aws/sendEmail", {
       method: "POST",
       body: JSON.stringify({ form }),
 
       headers: {
-        "Content-type": "application/json; charset=UTF-8",
+        "Content-Type": "application/json; charset=UTF-8",
       },
     })
       .then((response) => response.json())
