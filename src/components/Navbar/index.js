@@ -8,6 +8,10 @@ import {
   Nav,
   NavItem,
   NavLink,
+  UncontrolledDropdown,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle,
 } from "reactstrap";
 
 const NavbarIndex = () => {
@@ -48,12 +52,25 @@ const NavbarIndex = () => {
                   Education
                 </NavLink>
               </NavItem>
+
               <hr className="line m-auto w-50 mb-0 mt-0" />
               <NavItem>
                 <NavLink id="navitem" href="#Contact">
                   Contact
                 </NavLink>
               </NavItem>
+              <hr className="line m-auto w-50 mb-0 mt-0" />
+              <UncontrolledDropdown className="template-dropdown" nav inNavbar>
+                <DropdownToggle className="template-item-title" nav caret>
+                  Website Templates
+                </DropdownToggle>
+                <DropdownMenu className="dropdown-sm">
+                  <DropdownItem className="dropdown-item" href="/CV-Template">CV Template</DropdownItem>
+                  <DropdownItem className="dropdown-item">Portfolio</DropdownItem>
+                  <DropdownItem divider/>
+                  <DropdownItem className="dropdown=item">Read more</DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
             </Nav>
             <div>
               <div>

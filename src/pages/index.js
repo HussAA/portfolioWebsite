@@ -13,11 +13,10 @@ import ComingSoon from "../components/ComingSoon";
 const Index = () => {
   return (
     <>
-      <head>
-        <Helmet>
-          <title>Hussain Alnakhli</title>
-        </Helmet>
-      </head>
+      <Helmet>
+        <title>Hussain Alnakhli</title>
+      </Helmet>
+
       <section>
         <ComingSoon className="coming-soon-body" />
       </section>

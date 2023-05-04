@@ -2,14 +2,33 @@ html {
   scroll-behavior: smooth;
 }
 
-
 #toggler {
   transition: 0.3s;
 }
+.dropdown-item{
+  transition: 0.1s;
+  color: rgb(255, 255, 255);
+}
+.dropdown-sm{
+  background-color: #353434;
+}
+.dropdown-item:hover{
+  color: #6487d3;
+  background-color: transparent;
+}
+.template-dropdown{
+  margin-inline: 12px;
+  text-shadow: 2px 2px 10px #050505;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+.template-item-title{
+  color: #1e80db;
+  transition: 0.2s;
+}
+
 #navitem {
-  font-size: 17px;
-  margin-inline: 15px;
-  color: #cfcfcf;
+  margin-inline: 12px;
   text-shadow: 2px 2px 10px #050505;
   white-space: nowrap;
   transition: 0.2s;
@@ -100,6 +119,20 @@ a.item:focus {
 @media screen and (max-width: 991px) {
   #social {
     display: none;
+  }
+  .dropdown-sm{
+    width: 150px;
+    margin: auto;
+    background-color: rgb(92, 91, 91);
+    border: 1px solid;
+    
+  }
+  .dropdown-item{
+    transition: 0.1s;
+    color: white;
+  }
+  .dropdown-item:hover{
+    color: #6487d3;
   }
 }
 @media screen and (min-width: 1299.6px) {

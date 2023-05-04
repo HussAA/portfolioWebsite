@@ -1,0 +1,126 @@
+
+
+.cv-template-icon i{
+    color: rgb(139, 84, 0);
+}
+
+.shadow-cvTemplate{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+.left-column-cv{
+    margin-bottom: 20%;
+}
+
+.avatar{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom,
+        rgba(64, 53, 165, 0.2) 0%,
+        rgba(25, 20, 65, 0.2) 100%),
+      url("../../assets/images/avatar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .avatar {
+      height: 32vh;
+    }
+}
+  
+@media (min-width: 769px) {
+    .avatar {
+        height: 23vh;
+    }
+}
+@media (min-width: 1200px) {
+    .avatar {
+        height: 33vh;
+    }
+}
+@media (min-width: 1650px) {
+    .avatar {
+        height: 40vh;
+    }
+}
+.avatar-name{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.leftCol-font-item{
+    font-size: 17px;
+}
+.skill-bar-full-90{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0;
+    border-radius: 25rem;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.skill-bar-90{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 90%;
+    text-align: center;
+}
+.skill-bar-full-70{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0;
+    border-radius: 25rem;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.skill-bar-70{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 70%;
+    text-align: center;
+}
+.skill-bar-full-80{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0;
+    border-radius: 25rem;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.skill-bar-80{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 80%;
+    text-align: center;
+}
+.skill-bar-full-25{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0;
+    border-radius: 25rem;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.skill-bar-25{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 25%;
+    text-align: center;
+}
+.skill-bar-full-45{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0;
+    border-radius: 25rem;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.skill-bar-45{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 45%;
+    text-align: center;
+}
