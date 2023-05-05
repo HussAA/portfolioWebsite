@@ -85,9 +85,6 @@ to {
     background-color: rgb(50, 133, 189);
     transition: 0.2s;
 }
-.edu-button:focus{
-    background: rgb(50, 133, 189);
-}
 
 .transition{
     transition: 0.3s;

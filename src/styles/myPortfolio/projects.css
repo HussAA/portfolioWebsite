@@ -15,7 +15,10 @@
 .project-detail p {
     font-size: 15px;
 }
-
+.project-link-rm{
+    text-decoration: none;
+    color: black;
+}
 .project-card{
     position: relative;
     padding: 0px 20px 15px 20px;
@@ -54,10 +57,21 @@
         min-height: 425px;
     }
 }
+@media (min-width:991px ) {
+    .project-height-title{
+        min-height:127px;
+    }
+    .project-card{
+        min-height: 480px;
+    }
+}
 @media (min-width:1160px ) {
     .project-height-title{
         min-height:100px;
     }   
+    .project-card{
+        min-height:450px;
+    }
 }
 @media (min-width:1500px ) {
     .project-p{
