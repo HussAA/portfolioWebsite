@@ -66,7 +66,7 @@ const NavbarIndex = () => {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-sm">
                   <DropdownItem className="dropdown-item" href="/CV-Template">CV Template</DropdownItem>
-                  <DropdownItem className="dropdown-item">Portfolio</DropdownItem>
+                  <DropdownItem className="dropdown-item" disabled>Portfolio</DropdownItem>
                   <DropdownItem divider/>
                   <DropdownItem className="dropdown=item">Read more</DropdownItem>
                 </DropdownMenu>

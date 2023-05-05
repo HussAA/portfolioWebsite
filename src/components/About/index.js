@@ -11,16 +11,21 @@ const AboutMe = () => {
             </div>
             <div className="border-start border-dark border-2 ps-4 pt-4 pb-4">
               <p className="fs-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                I created this portfolio website to showcase my work and
+                demonstrate the range of skills and services that I offer as a
+                web developer. Having gained experience as a self-taught web
+                developer through creating websites for various businesses, my
+                focus is always on delivering high-quality work that meets and
+                exceeds client expectations.
               </p>
               <p className="fs-5">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
+                Please don't hesitate to contact me for any business inquiries
+                or other questions you may have.
               </p>
               <div>
-                <Button href="#Contact" className="about-button">Contact Me</Button>
+                <Button href="#Contact" className="about-button">
+                  Contact Me
+                </Button>
               </div>
             </div>
           </div>

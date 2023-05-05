@@ -15,6 +15,7 @@
 .project-detail p {
     font-size: 15px;
 }
+
 .project-card{
     position: relative;
     padding: 0px 20px 15px 20px;
@@ -46,6 +47,28 @@
 @media (min-width: 1299.6px){
     .project-margin{
         padding-left: 300px;
-        
+    }
+}
+@media (min-width:576px ) {
+    .project-card{
+        min-height: 425px;
+    }
+}
+@media (min-width:1160px ) {
+    .project-height-title{
+        min-height:100px;
+    }   
+}
+@media (min-width:1500px ) {
+    .project-p{
+        font-size: 19px;
+    } 
+    .project-card{
+        min-height: 465px;
+    }
+}
+@media (min-width:1650px ) {
+    .project-card{
+        min-height: 425px;
     }
 }
