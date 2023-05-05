@@ -77,13 +77,17 @@ const Education = () => {
                   onClick={() =>
                     setSecSlide(true) | setSlide(false) | setThirdSlide(false)
                   }
-                  className="edu-button"
+                  className={classNames("edu-button", {
+                    "second-button": secSlide,
+                  })}
                 ></button>
                 <button
                   onClick={() =>
                     setThirdSlide(true) | setSlide(false) | setSecSlide(false)
                   }
-                  className="edu-button"
+                  className={classNames("edu-button", {
+                    "third-button": thirdSlide,
+                  })}
                 ></button>
               </div>
             </div>

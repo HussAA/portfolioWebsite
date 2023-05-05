@@ -75,6 +75,12 @@ to {
 .first-button{
     background: rgb(50, 133, 189);
 }
+.second-button{
+    background: rgb(50, 133, 189);
+}
+.third-button{
+    background: rgb(50, 133, 189);
+}
 .edu-button:hover {
     background-color: rgb(50, 133, 189);
     transition: 0.2s;
