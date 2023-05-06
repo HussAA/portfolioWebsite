@@ -65,10 +65,21 @@ const NavbarIndex = () => {
                   Website Templates
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-sm">
-                  <DropdownItem className="dropdown-item" href="/CV-Template">CV Template</DropdownItem>
-                  <DropdownItem className="dropdown-item" disabled>Portfolio</DropdownItem>
-                  <DropdownItem divider/>
-                  <DropdownItem className="dropdown=item" href="#template-href">Read more</DropdownItem>
+                  <DropdownItem
+                    className="dropdown-item"
+                    target="_blank"
+                    href="/CV-Template"
+                    rel="noreferrer"
+                  >
+                    CV Template
+                  </DropdownItem>
+                  <DropdownItem className="dropdown-item" disabled>
+                    Portfolio
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem className="dropdown=item" href="#template-href">
+                    Read more
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

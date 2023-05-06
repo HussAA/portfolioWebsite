@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-lg-3 col-sm-6">
             <a
-              href="https://www.limestonecardetailing.com"
+              href="https://funny-smakager-17640b.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="project-link-rm"
@@ -50,7 +50,7 @@ const Projects = () => {
 
           <div className="col-lg-3 col-sm-6">
             <a
-              href="https://funny-smakager-17640b.netlify.app/"
+              href="https://www.limestonecardetailing.com"
               target="_blank"
               rel="noreferrer"
               className="project-link-rm"

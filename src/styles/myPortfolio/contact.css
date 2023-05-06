@@ -57,7 +57,7 @@
     
 }
 input,textarea{
-    width: 85%;
+    width: 80%;
     padding: 12px 12px ;
     border: 1px solid #ccc;
     border-radius: 0px;
@@ -99,13 +99,22 @@ input:hover,textarea:hover{
 @media (max-width:575px) {
     .contact-input-textarea{
         width: 80%;
-        margin: 6px 40px 16px 50px;
+        margin: 6px 1px 16px 40px;
     }
     .contact-padding{
         padding-left: 35px;
     }
     .contact-margin{
         margin-bottom: 80px;
+    }
+    .contact-button,.contact-sent-btn[disabled]{
+        margin: 6px 0px 16px 41px;
+    }
+}
+@media (max-width:416px) {
+    .contact-button,.contact-sent-btn[disabled],.contact-clear-btn{
+        font-size: 20px;
+        width: 100px;
     }
 }
 @media (max-width:1199px) {

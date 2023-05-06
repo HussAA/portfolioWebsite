@@ -7,28 +7,28 @@ animation: fade-in 2s;
 
 @-webkit-keyframes fade-in {
 from {
-    opacity: 0;
+    -webkit-opacity: 0;
 }
 to {
-    opacity: 1;
+    -webkit-opacity: 1;
 }
 }
 
 @-moz-keyframes fade-in {
 from {
-    opacity: 0;
+    -moz-opacity: 0;
 }
 to {
-    opacity: 1;
+    -moz-opacity: 1;
 }
 }
 
 @-ms-keyframes fade-in {
 from {
-    opacity: 0;
+    -ms-opacity: 0;
 }
 to {
-    opacity: 1;
+    -ms-opacity: 1;
 }
 }
 
@@ -95,15 +95,23 @@ to {
         padding-left: 270px;
         padding-right: 50px;
     }
-}
-@media (max-width:950px) {
     .edu-min-height{
-        min-height: 250px;
+        min-height: 220px;
+    }
+}
+@media (max-width:1123px) {
+    .edu-min-height{
+        min-height: 310px;
+    }
+}
+@media (max-width:523px) {
+    .edu-min-height{
+        min-height: 650px !important;
     }
 }
 @media (max-width:630px) {
     .edu-min-height{
-        min-height: 400px;
+        min-height: 450px;
     }
     .education-padding{
         padding-left: 50px;

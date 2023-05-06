@@ -35,7 +35,6 @@ html {
 }
 #navitem:hover {
   color: #6487d3;
-  transform: scale(1.03, 1.03);
 }
 
 #navitem::after {

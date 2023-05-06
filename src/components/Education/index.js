@@ -15,19 +15,33 @@ const Education = () => {
             </div>
             <div className="edu-border ps-3 pt-4 pb-4">
               <div className="edu-min-height">
-                <span className={classNames({
+                <span
+                  className={classNames({
                     "fade-in": slide,
-                  })}>
+                  })}
+                >
                   {slide && (
                     <p className="fs-5 text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      I completed the{" "}
+                      <span className="fw-bold">
+                        Computer Systems Technician
+                      </span>{" "}
+                      program at
+                      <span className="fw-bold">
+                        {" "}
+                        St. Lawrence College,
+                      </span>{" "}
+                      equipping me with a strong foundation in troubleshooting
+                      and maintaining computer systems. The program provided me
+                      with hands-on experience in hardware and software
+                      installation, network configuration, and system
+                      administration.
                       <br />
                       <br />
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                      Through practical projects and coursework, I gained the
+                      skills necessary to effectively address technical issues
+                      and support computer systems in a professional
+                      environment.
                     </p>
                   )}
                 </span>
@@ -38,27 +52,38 @@ const Education = () => {
                 >
                   {secSlide && (
                     <p className="fs-5 text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      I've begun on my web development journey by enrolling in
+                      online courses from various websites. These courses have
+                      greatly aided my understanding of the fundamental tools
+                      for building interactive web applications, namely
+                      <span className="fw-bold">
+                        {" "}
+                        HTML, CSS, JavaScript, and ReactJS.
+                      </span>
+                      <br />
+                      <br /> Currently, I am getting into backend development to
+                      expand my knowledge and build more full-stack websites
+                      like this one.
                     </p>
                   )}
                 </span>
-                <span className={classNames({
+                <span
+                  className={classNames({
                     "fade-in": thirdSlide,
-                  })}>
+                  })}
+                >
                   {thirdSlide && (
                     <p className="fs-5 text-white">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. incididunt ut
-                      labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat.
+                      I graduated from{" "}
+                      <span className="fw-bold">
+                        KCVI with a high school diploma.</span> During my high school years at KCVI, I enrolled in a
+                      programming course which I struggled to comprehend
+                      initially due to the language barrier of English. However,
+                      my passion for web development grew exponentially.
                       <br />
-                      <br />
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                      <br />I began coding in JavaScript and discovered React,
+                      which sparked my deep love and passion for web
+                      development.
                     </p>
                   )}
                 </span>

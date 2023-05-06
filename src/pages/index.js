@@ -9,7 +9,7 @@ import Education from "../components/Education";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
-import ComingSoon from "../components/ComingSoon";
+// import ComingSoon from "../components/ComingSoon";
 const Index = () => {
   return (
     <>
@@ -17,9 +17,9 @@ const Index = () => {
         <title>Hussain Alnakhli</title>
       </Helmet>
 
-      <section>
+      {/* <section>
         <ComingSoon className="coming-soon-body" />
-      </section>
+      </section> */}
       <body>
         <header>
           <section>
