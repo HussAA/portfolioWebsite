@@ -1,5 +1,12 @@
 import React from "react";
+import styled from "styled-components";
 
+const PresentBg = styled.span`
+  background-color: #8b5400;
+  color: white;
+  padding: 3px 7px 3px 7px;
+  border-radius: 7px;
+`;
 const MyResume = () => {
   return (
     <>
@@ -138,13 +145,13 @@ const MyResume = () => {
                       <div className="col">
                         <div className="row mb-2">
                           <div className="col fs-4">
-                            [Job Title] / [Company Name]
+                            It specialist (Co-op) / CompuFix
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Employment Dates]
+                            May 2023 - Aug 2023
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
@@ -161,13 +168,13 @@ const MyResume = () => {
                       <div className="col">
                         <div className="row mb-2">
                           <div className="col fs-4">
-                            [Job Title] / [Company Name]
+                            Web Developer / Freelance
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Employment Dates]
+                            Jan 2022 - <PresentBg>Present</PresentBg>
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
@@ -184,13 +191,13 @@ const MyResume = () => {
                       <div className="col">
                         <div className="row mb-2">
                           <div className="col fs-4">
-                            [Job Title] / [Company Name]
+                            Busser / The Keg Steakhouse + Bar
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Employment Dates]
+                            Oct 2020 - Nov 2021
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
@@ -219,16 +226,18 @@ const MyResume = () => {
                     <div className="row ms-1 mb-5">
                       <div className="col">
                         <div className="row mb-2">
-                          <div className="col fs-4">[Degree Name]</div>
+                          <div className="col fs-4">
+                            Computer Systems Technician Diploma
+                          </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Education Date]
+                            Sep 2021 - April 2023
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
-                          <div className="col">[institution name]</div>
+                          <div className="col fs-5">St. Lawrence College</div>
                         </div>
                       </div>
                     </div>
@@ -236,16 +245,18 @@ const MyResume = () => {
                     <div className="row ms-1 mb-5">
                       <div className="col">
                         <div className="row mb-2">
-                          <div className="col fs-4">[Degree Name]</div>
+                          <div className="col fs-4">
+                            REACTJS/JAVASCRIPT/HTML&CSS
+                          </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Education Date]
+                            Jan 2022 - <PresentBg>Present</PresentBg>
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
-                          <div className="col">[institution name]</div>
+                          <div className="col fs-5">Online Courses</div>
                         </div>
                       </div>
                     </div>
@@ -253,16 +264,20 @@ const MyResume = () => {
                     <div className="row ms-1 mb-5">
                       <div className="col">
                         <div className="row mb-2">
-                          <div className="col fs-4">[Degree Name]</div>
+                          <div className="col fs-4">
+                            Ontario Secondary School Diploma
+                          </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            [Education Date]
+                            Oct 2014 - Jun 2019
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
-                          <div className="col">[institution name]</div>
+                          <div className="col fs-5">
+                            Kingston Collegiate and Vocational Institute
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -294,70 +309,32 @@ const MyResume = () => {
 
             <div style={{ marginLeft: "10px" }}>
               <a
-                // target="_blank"
+                target="_blank"
                 className="footer-socials-cv-footer"
-                // href="mailto:"
-                // rel="noreferrer"
+                href="mailto:mah.hussaina@gmail.com"
+                rel="noreferrer"
               >
                 <i className="bi bi-envelope-plus-fill" />
               </a>
             </div>
+
             <div style={{ marginLeft: "10px" }}>
               <a
-                // target="_blank"
+                target="_blank"
                 className="footer-socials-cv-footer"
-                // href=""
-                // rel="noreferrer"
-              >
-                <i className="bi bi-facebook" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "10px" }}>
-              <a
-                // target="_blank"
-                className="footer-socials-cv-footer"
-                // href=""
-                // rel="noreferrer"
-              >
-                <i className="bi bi-instagram" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "10px" }}>
-              <a
-                // target="_blank"
-                className="footer-socials-cv-footer"
-                // href=""
-                // rel="noreferrer"
-              >
-                <i className="bi bi-twitter" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "10px" }}>
-              <a
-                // target="_blank"
-                className="footer-socials-cv-footer"
-                // rel="noreferrer"
-                // href=""
+                rel="noreferrer"
+                href="https://github.com/HussAA"
               >
                 <i className="bi bi-github" />
               </a>
             </div>
+
             <div style={{ marginLeft: "10px" }}>
               <a
-                // target="_blank"
+                target="_blank"
                 className="footer-socials-cv-footer"
-                // rel="noreferrer"
-                // href=""
-              >
-                <i className="bi bi-youtube" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "10px" }}>
-              <a
-                // target="_blank"
-                className="footer-socials-cv-footer"
-                // rel="noreferrer"
-                // href=""
+                rel="noreferrer"
+                href="/"
               >
                 <i className="bi bi-linkedin" />
               </a>

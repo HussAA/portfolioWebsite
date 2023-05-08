@@ -27,6 +27,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "reactstrap": "^9.1.6",
+    "styled-components": "^6.0.0-rc.1",
     "webpack": "^5.20.0"
   },
   "devDependencies": {

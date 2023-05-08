@@ -19,12 +19,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Job Title] / [Company Name]</div>
+                    <div className="col fs-4">[Job Title/Position] / [Company Name]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Employment Dates]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">
@@ -40,12 +40,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Job Title] / [Company Name]</div>
+                    <div className="col fs-4">[Job Title/Position] / [Company Name]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Employment Dates]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">
@@ -61,12 +61,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Job Title] / [Company Name]</div>
+                    <div className="col fs-4">[Job Title/Position] / [Company Name]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Employment Dates]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">
@@ -95,12 +95,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Degree Name]</div>
+                    <div className="col fs-4">[Degree/Certificate]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Education Date]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">
@@ -112,12 +112,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Degree Name]</div>
+                    <div className="col fs-4">[Degree/Certificate]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Education Date]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">
@@ -129,12 +129,12 @@ const RightColumn = () => {
               <div className="row ms-1 mb-5">
                 <div className="col">
                   <div className="row mb-2">
-                    <div className="col fs-4">[Degree Name]</div>
+                    <div className="col fs-4">[Degree/Certificate]</div>
                   </div>
                   <div className="row mb-2 ms-1 fs-5">
                     <div className="col orange-color">
                       <i className="bi bi-calendar3 me-3" />
-                      [Education Date]
+                      [Start Date - End Date]
                     </div>
                   </div>
                   <div className="row mb-2 ms-1 fs-6">

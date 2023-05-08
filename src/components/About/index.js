@@ -23,7 +23,7 @@ const AboutMe = () => {
                 for any business inquiries or other questions you may have.
               </p>
               <div>
-                <Button href="/Personal-CV.js" className="about-button">
+                <Button href="/Personal-CV" className="about-button">
                   CV/Resume
                 </Button>
               </div>
