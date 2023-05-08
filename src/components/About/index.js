@@ -19,12 +19,12 @@ const AboutMe = () => {
                 exceeds client expectations.
               </p>
               <p className="fs-5">
-                Please don't hesitate to contact me for any business inquiries
-                or other questions you may have.
+                Please take a look at my CV/Resume, and feel free to contact me
+                for any business inquiries or other questions you may have.
               </p>
               <div>
-                <Button href="#Contact" className="about-button">
-                  Contact Me
+                <Button href="/Personal-CV.js" className="about-button">
+                  CV/Resume
                 </Button>
               </div>
             </div>

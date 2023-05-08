@@ -74,7 +74,6 @@ html {
 .Sidelogo {
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 60px;
   display: block;
   width: 180px;
   padding: 15px 0px 5px 0px;
@@ -98,7 +97,17 @@ html {
   background: linear-gradient(to bottom, #1d1d1d, #444444);
   box-shadow: 1px 1px 25px 0px #000000;
 }
+.sidebar-height-m{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+@media (max-height:870px) {
+  .sidebar-height-m{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 a.item {
   text-align: center;
   text-decoration: none;

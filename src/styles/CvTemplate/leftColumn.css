@@ -54,26 +54,13 @@
 .leftCol-font-item{
     font-size: 17px;
 }
-.skill-bar-full-90{
-    margin-left: 12px;
-    margin-right: 12px;
-    padding-left: 0;
-    border-radius: 25rem;
-    background-color: rgba(0, 0, 0, 0.185);
-}
+
 .skill-bar-90{
     color: white;
     background-color: rgb(139, 84, 0);
     border-radius: 25rem;
     width: 90%;
     text-align: center;
-}
-.skill-bar-full-70{
-    margin-left: 12px;
-    margin-right: 12px;
-    padding-left: 0;
-    border-radius: 25rem;
-    background-color: rgba(0, 0, 0, 0.185);
 }
 .skill-bar-70{
     color: white;
@@ -82,13 +69,6 @@
     width: 70%;
     text-align: center;
 }
-.skill-bar-full-80{
-    margin-left: 12px;
-    margin-right: 12px;
-    padding-left: 0;
-    border-radius: 25rem;
-    background-color: rgba(0, 0, 0, 0.185);
-}
 .skill-bar-80{
     color: white;
     background-color: rgb(139, 84, 0);
@@ -96,13 +76,7 @@
     width: 80%;
     text-align: center;
 }
-.skill-bar-full-25{
-    margin-left: 12px;
-    margin-right: 12px;
-    padding-left: 0;
-    border-radius: 25rem;
-    background-color: rgba(0, 0, 0, 0.185);
-}
+
 .skill-bar-25{
     color: white;
     background-color: rgb(139, 84, 0);
@@ -110,7 +84,7 @@
     width: 25%;
     text-align: center;
 }
-.skill-bar-full-45{
+.skill-bar-full{
     margin-left: 12px;
     margin-right: 12px;
     padding-left: 0;
@@ -122,5 +96,19 @@
     background-color: rgb(139, 84, 0);
     border-radius: 25rem;
     width: 45%;
+    text-align: center;
+}
+.skill-bar-65{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 65%;
+    text-align: center;
+}
+.skill-bar-75{
+    color: white;
+    background-color: rgb(139, 84, 0);
+    border-radius: 25rem;
+    width: 75%;
     text-align: center;
 }

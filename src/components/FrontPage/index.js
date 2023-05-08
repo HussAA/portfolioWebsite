@@ -5,7 +5,7 @@ const FrontPage = () => {
     <>
       <div className="masthead">
         <div className="container h-100">
-
+          
         </div>
       </div>
     </>

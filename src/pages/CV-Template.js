@@ -11,3 +11,4 @@ const CVTemplate = () => {
 };
 
 export default CVTemplate;
+export const Head = () => <title>CV/Resume Template</title>

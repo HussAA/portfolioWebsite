@@ -10,35 +10,35 @@ const Sidebar = () => {
           </a>
         </div>
         <div>
-          <a href="#About" className="item link mb-4 mt-4">
+          <a href="#About" className="item link sidebar-height-m">
             <i className="bi bi-person-fill">
               <br />
               <span>About</span>
             </i>
           </a>
-          <hr className="line w-100 mb-5" />
-          <a href="#Projects" className="item link mb-5">
+          <hr className="line w-100" />
+          <a href="#Projects" className="item link sidebar-height-m">
             <i className="bi bi-lightbulb-fill">
               <br />
               <span>Projects</span>
             </i>
           </a>
-          <hr className="line w-100 mb-5" />
-          <a href="#Experience" className="item link mb-5">
+          <hr className="line w-100" />
+          <a href="#Experience" className="item link sidebar-height-m">
             <i className="bi bi-stack">
               <br />
               <span>Experience</span>
             </i>
           </a>
-          <hr className="line w-100 mb-5" />
-          <a href="#Education" className="item link mb-5">
+          <hr className="line w-100" />
+          <a href="#Education" className="item link sidebar-height-m">
             <i className="bi bi-building-fill">
               <br />
               <span>Education</span>
             </i>
           </a>
-          <hr className="line w-100 mb-5" />
-          <a href="#Contact" className="item link mb-5">
+          <hr className="line w-100" />
+          <a href="#Contact" className="item link sidebar-height-m">
             <i className="bi bi-envelope-plus">
               <br />
               <span>Contact</span>
