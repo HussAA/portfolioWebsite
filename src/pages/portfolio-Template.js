@@ -1,9 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import PortfolioTemp from "../components/WebsiteTemplates/portfolioWebsite";
+import ComingSoon from "../components/ComingSoon";
 const PortfolioTemplate = () => {
   return (
-    <div>portfolioTemplate</div>
-  )
-}
+    <>
+      <section>
+        <ComingSoon text="In Development" className="coming-soon-body" />
+      </section>
+      <PortfolioTemp />
+    </>
+  );
+};
 
-export default PortfolioTemplate
+export default PortfolioTemplate;
+export const Head = () => <title>Portfolio Template</title>;

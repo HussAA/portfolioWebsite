@@ -20,7 +20,7 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar id="hideNav" className="navbar navbar-expand-lg navbar-dark">
+        <Navbar id="hideNav" className="navbar navbar-expand-lg navbar-dark main-navbar-bg">
           <NavbarBrand href="/">
             <img alt="Logo" className="Navlogo" src={Logo} />
           </NavbarBrand>
@@ -73,7 +73,7 @@ const NavbarIndex = () => {
                   >
                     CV Template
                   </DropdownItem>
-                  <DropdownItem className="dropdown-item" disabled>
+                  <DropdownItem className="dropdown-item" href="/portfolio-Template">
                     Portfolio
                   </DropdownItem>
                   <DropdownItem divider />

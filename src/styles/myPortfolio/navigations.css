@@ -63,7 +63,7 @@ html {
   color: #bbc3d3;
 }
 
-.navbar {
+.main-navbar-bg {
   background: linear-gradient(to left, #1d1d1d, #444444);
   box-shadow: 0px 1px 30px 8px #000000;
 }

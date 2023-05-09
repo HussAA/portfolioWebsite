@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import NavbarPortfolioIndex from "./navbar";
 
 const PortfolioTemp = () => {
   return (
-    <div>PortfolioTemplate</div>
-  )
-}
+    <>
+      <NavbarPortfolioIndex />
+    </>
+  );
+};
 
-export default PortfolioTemp
+export default PortfolioTemp;

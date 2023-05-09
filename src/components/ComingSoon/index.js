@@ -1,13 +1,14 @@
 import React from "react";
 
-const ComingSoon = () => {
+const ComingSoon = (props) => {
+  
   return (
     <>
-      {/* <div className="overlay">
+      <div className="overlay">
         <div className="coming-soon">
-            Coming Soon
+            {props.text}
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
