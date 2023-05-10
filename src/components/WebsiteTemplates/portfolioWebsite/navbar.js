@@ -161,7 +161,10 @@ const NavbarPortfolioIndex = () => {
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
-              <ContactLink className="navLink text-uppercase text-nowrap" href="#Contact">
+              <ContactLink
+                className="navLink text-uppercase text-nowrap"
+                href="#Contact"
+              >
                 Contact Us
               </ContactLink>
             </NavItem>
