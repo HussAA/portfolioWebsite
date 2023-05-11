@@ -85,7 +85,7 @@ const NavbarIndex = () => {
             </Nav>
             <div>
               <div>
-                <a target="_blank" id="social" rel="noreferrer" href="/">
+                <a target="_blank" id="social" rel="noreferrer" href="https://www.linkedin.com/in/hussain-alnakhli-880739222/">
                   <i className="bi bi-linkedin" />
                 </a>
               </div>

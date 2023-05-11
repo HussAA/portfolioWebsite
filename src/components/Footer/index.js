@@ -45,7 +45,7 @@ const Footer = () => {
                 target="_blank"
                 className="footer-socials"
                 rel="noreferrer"
-                href="/"
+                href="https://www.linkedin.com/in/hussain-alnakhli-880739222/"
               >
                 <i className="bi bi-linkedin" />
               </a>
