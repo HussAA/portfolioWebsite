@@ -271,7 +271,7 @@ const MyResume = () => {
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            Oct 2014 - Jun 2019
+                            Sep 2014 - Jun 2019
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
