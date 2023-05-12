@@ -115,30 +115,37 @@ const Projects = () => {
           </div>
 
           <div className="col-lg-3 col-sm-6" id="template-href">
-            <div className="project-card">
-              <div className="row">
-                <div className="col">
-                  <i className="project-logo bi bi-file-earmark-person-fill" />
+            <a
+              href="/portfolio-Template"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link-rm"
+            >
+              <div className="project-card">
+                <div className="row">
+                  <div className="col">
+                    <i className="project-logo bi bi-file-earmark-person-fill" />
+                  </div>
                 </div>
-              </div>
-              <div className="row project-height-title">
-                <div className="col">
-                  <div className="project-card-title">
-                    Portfolio Website Template
+                <div className="row project-height-title">
+                  <div className="col">
+                    <div className="project-card-title">
+                      Portfolio Website Template
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col">
+                    <p className="project-p">
+                      This portfolio website template was created to highlight
+                      my skills as a web developer and provide clients with a
+                      useful layout that can be used for job applications or
+                      other business purposes.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col">
-                  <p className="project-p">
-                    This portfolio website template was created to highlight my
-                    skills as a web developer and provide clients with a useful
-                    layout that can be used for job applications or other
-                    business purposes.
-                  </p>
-                </div>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
