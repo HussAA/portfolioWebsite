@@ -4,11 +4,11 @@ const ComingSoon = (props) => {
   
   return (
     <>
-      <div className="overlay">
+      {/* <div className="overlay">
         <div className="coming-soon">
             {props.text}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
