@@ -36,8 +36,8 @@ const ContactLink = styled(NavLink)`
 const UnderBar = styled.nav`
   background-color: #ffffff;
   width: 100%;
-  height: 45px;
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17);
+  height: 65px;
+  /* box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17); */
 `;
 
 const NavbarPortfolioIndex = () => {
@@ -45,15 +45,15 @@ const NavbarPortfolioIndex = () => {
   //   const toggle = () => setIsOpen(!isOpen);
   return (
     <>
-      <Navbar className="navbar navbar-expand-md bar shadow-small">
+      <Navbar className="navbar navbar-expand-md bar">
         {/* Navbar Brand mobile mode */}
-        <NavbarBrand className="offset-fullname d-md-none">
-          [Full Name]
+        <NavbarBrand className="offset-fullname d-md-none text-uppercase">
+          John Doe
         </NavbarBrand>
         {/* Socials web mode */}
         <div className="col-md-2 d-none d-md-block">
           <div className="d-inline-flex">
-            <div className="social-div ms-md-4">
+            <div className="social-div">
               <a
                 target="_blank"
                 className="navbar-socials"
@@ -86,8 +86,8 @@ const NavbarPortfolioIndex = () => {
           </div>
         </div>
         {/* Navbar Brand web mode */}
-        <NavbarBrand className="offset-fullname d-none d-md-block">
-          [Full Name]
+        <NavbarBrand className="offset-fullname d-none d-md-block text-uppercase">
+        John Doe
         </NavbarBrand>
         {/* Socials web mode */}
         <ContactButton className="order-md-3 d-none d-md-block text-uppercase">
@@ -128,7 +128,7 @@ const NavbarPortfolioIndex = () => {
             </div>
           </div>
           {/* toggler mobile mode */}
-          <Hamburger toggled={isOpen} toggle={setIsOpen} />
+          <Hamburger size={25} toggled={isOpen} toggle={setIsOpen} />
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-4 mt-5 mb-3 d-md-none toggler-order" navbar>

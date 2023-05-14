@@ -24,7 +24,7 @@ const CvFooter = () => {
           <a
             // target="_blank"
             className="footer-socials-cv-footer"
-            // href="mailto:"
+            href="/"
             // rel="noreferrer"
           >
             <i className="bi bi-envelope-plus-fill" />
@@ -34,7 +34,7 @@ const CvFooter = () => {
           <a
             // target="_blank"
             className="footer-socials-cv-footer"
-            // href=""
+            href="/"
             // rel="noreferrer"
           >
             <i className="bi bi-facebook" />
@@ -44,7 +44,7 @@ const CvFooter = () => {
           <a
             // target="_blank"
             className="footer-socials-cv-footer"
-            // href=""
+            href="/"
             // rel="noreferrer"
           >
             <i className="bi bi-instagram" />
@@ -54,7 +54,7 @@ const CvFooter = () => {
           <a
             // target="_blank"
             className="footer-socials-cv-footer"
-            // href=""
+            href="/"
             // rel="noreferrer"
           >
             <i className="bi bi-twitter" />
@@ -65,7 +65,7 @@ const CvFooter = () => {
             // target="_blank"
             className="footer-socials-cv-footer"
             // rel="noreferrer"
-            // href=""
+            href="/"
           >
             <i className="bi bi-github" />
           </a>
@@ -75,7 +75,7 @@ const CvFooter = () => {
             // target="_blank"
             className="footer-socials-cv-footer"
             // rel="noreferrer"
-            // href=""
+            href="/"
           >
             <i className="bi bi-youtube" />
           </a>
@@ -85,7 +85,7 @@ const CvFooter = () => {
             // target="_blank"
             className="footer-socials-cv-footer"
             // rel="noreferrer"
-            // href=""
+            href="/"
           >
             <i className="bi bi-linkedin" />
           </a>

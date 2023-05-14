@@ -40,7 +40,7 @@ const MyResume = () => {
                     <div className="row mb-2">
                       <div className="col leftCol-font-item">
                         <i className="col bi bi-envelope me-3" />
-                        mah.hussain@gmail.com
+                        mah.hussaina@gmail.com
                       </div>
                     </div>
                     <div className="row">

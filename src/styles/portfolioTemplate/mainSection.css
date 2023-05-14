@@ -1,0 +1,24 @@
+.portfolio-main-pic{
+    height:70vh;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 100%),
+      url("../../assets/images/Main-Section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:767px) {
+    .portfolio-main-pic{
+        height: 45vh;
+        margin-left: 3px;
+        margin-right: 3px;
+    }   
+}
+@media (max-width:550px) {
+    .portfolio-main-pic{
+        height: 35vh;
+    } 
+}
