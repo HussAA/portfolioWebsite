@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../assets/images/Logo2.png";
+import Hamburger from "hamburger-react";
+import styled  from "styled-components";
 import {
   Collapse,
   Navbar,
@@ -25,8 +27,10 @@ const NavbarIndex = () => {
             <img alt="Logo" className="Navlogo" src={Logo} />
           </NavbarBrand>
 
-          <NavbarToggler className="border-0" onClick={toggle} />
-
+          <span className="d-lg-none">
+            <Hamburger color="#ffffff" size={25} toggled={isOpen} toggle={setIsOpen} />
+          </span>
+          
           <Collapse id="toggler" isOpen={isOpen} navbar>
             <Nav className="text-center mx-auto me-auto mx-5" navbar>
               <NavItem>

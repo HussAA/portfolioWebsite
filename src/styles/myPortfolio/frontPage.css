@@ -1,7 +1,7 @@
 .masthead {
-    height:55vh;
+    height:60vh;
     margin-top: auto;
-    padding-top: 10rem;
+    
     padding-bottom: calc(10rem - 4.5rem);
     background: linear-gradient(to bottom,
         rgba(128, 90, 64, .2) 0%,

@@ -66,6 +66,7 @@ html {
 .main-navbar-bg {
   background: linear-gradient(to left, #1d1d1d, #444444);
   box-shadow: 0px 1px 30px 8px #000000;
+
 }
 
 .line {
@@ -124,6 +125,11 @@ a.item:focus {
   transform: scale(1.03, 1.03);
 }
 
+@media screen and (min-width: 991px) {
+  #hideNav{
+    height: 100px;
+  }
+}
 @media screen and (max-width: 991px) {
   #social {
     display: none;
