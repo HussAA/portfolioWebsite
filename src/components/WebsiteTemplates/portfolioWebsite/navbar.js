@@ -14,10 +14,14 @@ const ContactButton = styled.button`
   padding: 8px 30px 8px 30px;
   color: #e3e3e3;
   font-size: 19px;
+  border: 0;
   background-color: #0f100f;
   transition: 0.2s;
   &:hover {
     background-color: #333333;
+  }
+  @media screen {
+    font-size: 15px;
   }
 `;
 const ContactLink = styled(NavLink)`
@@ -91,7 +95,7 @@ const NavbarPortfolioIndex = () => {
         </NavbarBrand>
         {/* Socials web mode */}
         <ContactButton className="order-md-3 d-none d-md-block text-uppercase">
-          Contact Us
+          Contact Me
         </ContactButton>
         {/* Socials mobile mode */}
         <div className="d-md-none d-inline-flex align-items-center">
@@ -128,19 +132,19 @@ const NavbarPortfolioIndex = () => {
             </div>
           </div>
           {/* toggler mobile mode */}
-          <Hamburger size={25} toggled={isOpen} toggle={setIsOpen} />
+          <Hamburger distance="lg" size={25} toggled={isOpen} toggle={setIsOpen} rounded />
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-4 mt-5 mb-3 d-md-none toggler-order" navbar>
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#About">
-                About
+              <NavLink className="navLink text-uppercase" href="#Welcome">
+                About Me
               </NavLink>
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Projects">
-                Projects
+              <NavLink className="navLink text-uppercase" href="#Services">
+                Services
               </NavLink>
             </NavItem>
 
@@ -156,8 +160,8 @@ const NavbarPortfolioIndex = () => {
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Skills">
-                Skills
+              <NavLink className="navLink text-uppercase" href="#Gallery">
+                Gallery
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
@@ -165,7 +169,7 @@ const NavbarPortfolioIndex = () => {
                 className="navLink text-uppercase text-nowrap"
                 href="#Contact"
               >
-                Contact Us
+                Contact Me
               </ContactLink>
             </NavItem>
           </Nav>
@@ -176,13 +180,13 @@ const NavbarPortfolioIndex = () => {
       <UnderBar className="d-none d-md-block">
         <Nav className="d-flex flex-row justify-content-center fs-5" navbar>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
-              About
+            <NavLink className="underbarItem text-uppercase" href="#Welcome">
+              About Me
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="underbarItem text-uppercase" href="/">
-              Projects
+              Services
             </NavLink>
           </NavItem>
           <NavItem>
@@ -192,7 +196,7 @@ const NavbarPortfolioIndex = () => {
           </NavItem>
           <NavItem>
             <NavLink className="underbarItem text-uppercase" href="/">
-              Skills
+              Gallery
             </NavLink>
           </NavItem>
           <NavItem>
@@ -208,83 +212,3 @@ const NavbarPortfolioIndex = () => {
 
 export default NavbarPortfolioIndex;
 
-/* <nav className="navbar navbar-expand-md bar shadow-small">
-        <div className="d-md-block ms-3 col-xl-3">
-          <div className="d-inline-flex">
-            <div>
-              <a
-                target="_blank"
-                className="navbar-socials"
-                rel="noreferrer"
-                href="https://github.com/HussAA"
-              >
-                <i className="bi bi-facebook" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "20px" }}>
-              <a
-                target="_blank"
-                className="navbar-socials"
-                rel="noreferrer"
-                href="/"
-              >
-                <i className="bi bi-linkedin" />
-              </a>
-            </div>
-            <div style={{ marginLeft: "20px" }}>
-              <a
-                target="_blank"
-                className="navbar-socials"
-                rel="noreferrer"
-                href="/"
-              >
-                <i className="bi bi-instagram" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="order-md-2 col-md-5 offset-md-2 fullname-offset-xl">
-          <div className="navbar-brand">[Full Name]</div>
-        </div>
-
-        <div className="order-3 d-none d-md-block me-3">
-          <ContactButton>Contact Us</ContactButton>
-        </div>
-
-        <Toggler className="navbar-toggler me-2" type="button" onClick={toggle}>
-          <span className="navbar-toggler-icon"></span>
-        </Toggler>
-
-        <Collapse
-          className={`collapse navbar-collapse transition ${isOpen ? "show" : "collapsing"}`}
-          isOpen={isOpen}>
-          <ul className="navbar-nav ms-4 mt-5 d-md-none">
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                Education
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                Experience
-              </a>
-            </li>
-          </ul>
-        </Collapse>
-      </nav> */

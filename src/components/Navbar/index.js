@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import Logo from "../../assets/images/Logo2.png";
 import Hamburger from "hamburger-react";
-import styled  from "styled-components";
+// import styled  from "styled-components";
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
@@ -18,7 +17,7 @@ import {
 
 const NavbarIndex = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
   return (
     <>
       <div>
