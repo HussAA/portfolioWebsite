@@ -1,6 +1,20 @@
 import React from "react";
 import { styled } from "styled-components";
 import Arrow from "../../../assets/images/right-arrow.png";
+
+const SectionTitles = styled.div`
+  font-size: 12pt;
+  color: #4d4d4d;
+  font-family: system-ui;
+  margin-top: 150px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width:767px) {
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+`;
+
 const AboutTitle = styled.div`
   font-size: 45pt;
   color: black;
@@ -54,6 +68,7 @@ const RightArrow = styled.img`
 const PortfolioAboutMe = () => {
   return (
     <>
+    <SectionTitles className="text-center text-uppercase">Welcome</SectionTitles>
       <div className="container ">
         <div className="row">
           <div className="col-md-6">

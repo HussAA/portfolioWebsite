@@ -185,23 +185,23 @@ const NavbarPortfolioIndex = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
+            <NavLink className="underbarItem text-uppercase" href="#Services">
               Services
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="underbarItem text-uppercase" href="/">
-              Experience
+              Pricing
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="underbarItem text-uppercase" href="/">
+              Qualifications
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="underbarItem text-uppercase" href="/">
               Gallery
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
-              Education
             </NavLink>
           </NavItem>
         </Nav>

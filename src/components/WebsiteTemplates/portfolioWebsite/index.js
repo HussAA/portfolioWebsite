@@ -2,18 +2,10 @@ import React from "react";
 import NavbarPortfolioIndex from "./navbar";
 import MainSection from "./mainSection";
 import PortfolioAboutMe from "./Aboutme";
+import PortfolioServices from "./Services";
 import { styled } from "styled-components";
 
-const MainImageSection = styled.section`
-  min-height: 1000px;
-
-  @media screen and (max-width:991px){
-    min-height: 680px !important;
-  }
-  @media screen and (max-width:767px){
-    min-height: 550px !important;
-  }
-    
+const ServiceSection = styled.div`
   
 `;
 
@@ -25,14 +17,17 @@ const PortfolioTemp = () => {
           <NavbarPortfolioIndex />
         </header>
 
-        <MainImageSection style={{ minHeight: "800px"}}>
+        <section>
           <MainSection />
-        </MainImageSection>
-        <section style={{ minHeight: "1000px" }}>
+        </section>
+        <section style={{marginBottom: "150px"}}>
           <PortfolioAboutMe />
         </section>
-        <footer></footer>
+        <ServiceSection style={{marginBottom:"300px"}}>
+          <PortfolioServices/>
+        </ServiceSection>
       </body>
+      <footer></footer>
     </>
   );
 };

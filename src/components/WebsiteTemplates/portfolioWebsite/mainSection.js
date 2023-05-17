@@ -1,12 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const SectionTitles = styled.div`
-  font-size: 12pt;
-  color: #4d4d4d;
-  font-family: system-ui;
-  margin-top: 120px;
-`;
+
 const Slogan = styled.div`
   font-size: 25pt;
   font-family: system-ui;
@@ -38,7 +33,6 @@ const MainSection = () => {
         <div className="portfolio-main-pic">
           <SloganPortfolio />
         </div>
-        <SectionTitles className="text-center text-uppercase">Welcome</SectionTitles>
       </div>
     </>
   );
