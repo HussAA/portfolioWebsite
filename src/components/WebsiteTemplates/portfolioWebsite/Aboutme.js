@@ -7,7 +7,7 @@ const SectionTitles = styled.div`
   color: #4d4d4d;
   font-family: system-ui;
   margin-top: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 
   @media screen and (max-width:767px) {
     margin-top: 130px;

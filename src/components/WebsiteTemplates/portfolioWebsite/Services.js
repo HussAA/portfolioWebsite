@@ -1,58 +1,83 @@
 import React from "react";
 import { styled } from "styled-components";
 import Marriage from "../../../assets/images/Marriage.gif";
+import RealEstate from "../../../assets/images/realestate.gif";
+import Products from "../../../assets/images/products.gif";
+import Fashion from "../../../assets/images/fashion.gif";
+import Event from "../../../assets/images/catwalk.gif";
+import Portrait from "../../../assets/images/portrait.gif";
+import WildLife from "../../../assets/images/lion.gif";
+import Sports from "../../../assets/images/sport.gif";
 
 const SectionTitles = styled.div`
-  font-size: 13pt;
+  font-size: 12pt;
   color: #4d4d4d;
   font-family: system-ui;
   margin-top: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 767px) {
     margin-top: 130px;
     margin-bottom: 20px;
   }
 `;
+const SectionHeading = styled.div`
+  font-size: 35pt;
+  font-family: sans-serif;
+  text-align: center;
+`;
+const SectionDescription = styled.div`
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
+`;
+
 const MarriageLogo = styled.img`
   width: 90px;
   height: 90px;
   cursor: pointer;
 `;
 const CardTitle = styled.div`
-  font-size: 17pt;
+  font-size: 16pt;
   color: black;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
 `;
 const CardDescription = styled.div`
   font-size: 13pt;
-  color: black;
+  padding-left: 4px;
+  padding-right: 4px;
 `;
 const ServiceCard = styled.div`
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.22);
-  height: 240px;
+  height: auto;
+  min-height: 330px;
   width: auto;
-  margin: 7px 0px 7px 0px;
+  max-width: 200px;
+  margin: auto;
   background: white;
+  margin-bottom: 15px;
 `;
 
 const OutsideColor = styled.div`
-  background: #0F0A0A;
+  background: #0f0a0a;
   height: 5px;
-  margin-left: 0;
-  margin-right: 0;
 `;
 const ServicesCards = ({ logo, title, description }) => {
   return (
     <>
-      <div className="col-md-6 col-lg-4">
-        <ServiceCard className="row text-center">
+      <div className="col-6 col-lg-3">
+        <ServiceCard className="text-center">
           <OutsideColor />
-          <div className="row mb-1">
+          <div className="row mb-4">
             <div className="col">
               <MarriageLogo src={logo} alt="service logo" />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mb-3">
             <div className="col">
               <CardTitle>{title}</CardTitle>
             </div>
@@ -71,10 +96,15 @@ const ServicesCards = ({ logo, title, description }) => {
 const PortfolioServices = () => {
   return (
     <>
-      <SectionTitles id="Services" className="text-center text-uppercase">
+      <SectionTitles className="text-center text-uppercase">
         Services
       </SectionTitles>
-      <div className="container-sm">
+      <SectionHeading id="Services">WHAT I DO</SectionHeading>
+      <SectionDescription>
+        I am dedicated to providing exceptional photography services that
+        capture the essence and beauty of every moment.
+      </SectionDescription>
+      <div className="container">
         <div className="row">
           <ServicesCards
             logo={Marriage}
@@ -82,29 +112,39 @@ const PortfolioServices = () => {
             description="Capture the precious moments of weddings."
           />
           <ServicesCards
-            logo={Marriage}
-            title="Wedding Photography"
-            description="Capture the precious moments of weddings."
+            logo={Fashion}
+            title="Fashion Photography"
+            description="Offer fashion shoots for models, designers, or clothing brands."
           />
           <ServicesCards
-            logo={Marriage}
-            title="Wedding Photography"
-            description="Capture the precious moments of weddings."
+            logo={Event}
+            title="Event Photography"
+            description="Cover various events such as conferences, parties, and corporate gatherings."
           />
           <ServicesCards
-            logo={Marriage}
-            title="Wedding Photography"
-            description="Capture the precious moments of weddings."
+            logo={Portrait}
+            title="Portrait Photography"
+            description="Provide professional portrait sessions for individuals or families."
           />
           <ServicesCards
-            logo={Marriage}
-            title="Wedding Photography"
-            description="Capture the precious moments of weddings."
+            logo={RealEstate}
+            title="Real Estate Photography"
+            description="Capture properties for real estate agents or homeowners looking to sell or rent."
           />
           <ServicesCards
-            logo={Marriage}
-            title="Wedding Photography"
-            description="Capture the precious moments of weddings."
+            logo={Sports}
+            title="Sports Photography"
+            description="Cover sporting events, capturing action shots and athlete performances."
+          />
+          <ServicesCards
+            logo={WildLife}
+            title="Wildlife Photography"
+            description="Capture the beauty and behavior of animals in their natural habitats."
+          />
+          <ServicesCards
+            logo={Products}
+            title="Products Photography"
+            description="Highlight products with high-quality images for e-commerce or advertising purposes."
           />
         </div>
       </div>

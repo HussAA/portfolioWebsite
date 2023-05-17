@@ -5,9 +5,7 @@ import PortfolioAboutMe from "./Aboutme";
 import PortfolioServices from "./Services";
 import { styled } from "styled-components";
 
-const ServiceSection = styled.div`
-  
-`;
+
 
 const PortfolioTemp = () => {
   return (
@@ -23,9 +21,9 @@ const PortfolioTemp = () => {
         <section style={{marginBottom: "150px"}}>
           <PortfolioAboutMe />
         </section>
-        <ServiceSection style={{marginBottom:"300px"}}>
+        <div style={{marginBottom:"300px"}}>
           <PortfolioServices/>
-        </ServiceSection>
+        </div>
       </body>
       <footer></footer>
     </>
