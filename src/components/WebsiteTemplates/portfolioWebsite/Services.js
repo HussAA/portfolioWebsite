@@ -23,21 +23,24 @@ const SectionTitles = styled.div`
 `;
 const SectionHeading = styled.div`
   font-size: 35pt;
-  font-family: sans-serif;
+  color: black;
   text-align: center;
 `;
 const SectionDescription = styled.div`
-  font-size: 11pt;
+  font-size: 12pt;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: gray;
   margin-bottom: 40px;
+  margin-left: 23px;
+  margin-right: 23px;
 `;
 
 const MarriageLogo = styled.img`
   width: 90px;
   height: 90px;
   cursor: pointer;
+  margin-top: 10px;
 `;
 const CardTitle = styled.div`
   font-size: 16pt;
@@ -47,7 +50,7 @@ const CardTitle = styled.div`
   padding-right: 4px;
 `;
 const CardDescription = styled.div`
-  font-size: 13pt;
+  font-size: 16px;
   padding-left: 4px;
   padding-right: 4px;
 `;
@@ -63,7 +66,7 @@ const ServiceCard = styled.div`
 `;
 
 const OutsideColor = styled.div`
-  background: #0f0a0a;
+  background: #26BAB4;
   height: 5px;
 `;
 const ServicesCards = ({ logo, title, description }) => {
@@ -87,6 +90,7 @@ const ServicesCards = ({ logo, title, description }) => {
               <CardDescription>{description}</CardDescription>
             </div>
           </div>
+          
         </ServiceCard>
       </div>
     </>

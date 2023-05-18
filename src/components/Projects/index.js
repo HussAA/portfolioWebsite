@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <div className="container-fluid project-margin">
+      <div id="Projects" className="container-fluid project-margin">
         <div className="row text-center">
           <div className="col">
             <div className="project-font">Projects.</div>

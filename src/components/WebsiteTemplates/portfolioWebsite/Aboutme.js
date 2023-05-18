@@ -48,9 +48,9 @@ const AboutButton = styled.button`
   color: white;
   border: 0;
   transition: 0.3s;
-  background: linear-gradient(to right, #1d1d1d, #474747);
+  background: linear-gradient(to right, #1d1d1d, #353535);
   &:hover {
-    color: gray;
+    color: #B3B3B3;
   }
 `;
 const RightArrow = styled.img`

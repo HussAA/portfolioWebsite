@@ -21,7 +21,7 @@ const NavbarIndex = () => {
   return (
     <>
       <div>
-        <Navbar id="hideNav" className="navbar navbar-expand-lg navbar-dark main-navbar-bg fixed-top">
+        <Navbar id="hideNav" className="navbar navbar-expand-lg navbar-dark main-navbar-bg sticky-top">
           <NavbarBrand href="/">
             <img alt="Logo" className="Navlogo" src={Logo} />
           </NavbarBrand>

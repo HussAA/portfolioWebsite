@@ -24,17 +24,18 @@ const ContactButton = styled.button`
     font-size: 15px;
   }
 `;
-const ContactLink = styled(NavLink)`
-  padding: 3px 20px 3px 20px;
+const ContactLink = styled.div`
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #0f100f;
-  transition: 0.2s;
+  transition: 0.3s;
   width: fit-content;
   margin-top: 5px;
   &:hover {
-    background-color: #333333;
-    color: white;
+    background-color: #555555;
+    color: black;
   }
 `;
 const UnderBar = styled.nav`
@@ -149,14 +150,14 @@ const NavbarPortfolioIndex = () => {
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Experience">
-                Experience
+              <NavLink className="navLink text-uppercase" href="#Packages">
+                Packages
               </NavLink>
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Education">
-                Education
+              <NavLink className="navLink text-uppercase" href="#Qualifications">
+              Qualifications
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
@@ -164,9 +165,9 @@ const NavbarPortfolioIndex = () => {
                 Gallery
               </NavLink>
             </NavItem>
-            <NavItem className="navItem">
+            <NavItem>
               <ContactLink
-                className="navLink text-uppercase text-nowrap"
+                className="text-uppercase text-nowrap"
                 href="#Contact"
               >
                 Contact Me
@@ -190,17 +191,17 @@ const NavbarPortfolioIndex = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
-              Pricing
+            <NavLink className="underbarItem text-uppercase" href="#Packages">
+              Packages
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
+            <NavLink className="underbarItem text-uppercase" href="#Qualifications">
               Qualifications
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="/">
+            <NavLink className="underbarItem text-uppercase" href="#Gallery">
               Gallery
             </NavLink>
           </NavItem>

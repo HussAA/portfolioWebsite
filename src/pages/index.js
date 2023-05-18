@@ -44,7 +44,7 @@ const Index = () => {
             <AboutMe />
           </section>
           <section
-            id="Projects"
+            
             className="project-fill"
             style={{
               minHeight: 600,
