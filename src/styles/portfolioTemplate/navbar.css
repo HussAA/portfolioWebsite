@@ -24,11 +24,12 @@
 /* Collapse Links */
 .navLink{
     font-size: 20px;
-    color: rgb(104, 104, 104);
+    color: black;
     transition: 0.1s;
 }
 .navLink:hover{
-    color: black;
+    
+    color: rgb(104, 104, 104);
 }
 .underbarItem{
     transition: 0.1s;

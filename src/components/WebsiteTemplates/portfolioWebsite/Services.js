@@ -11,26 +11,24 @@ import Sports from "../../../assets/images/sport.gif";
 
 const SectionTitles = styled.div`
   font-size: 12pt;
-  color: #4d4d4d;
+  color: white;
   font-family: system-ui;
-  margin-top: 150px;
   margin-bottom: 50px;
 
   @media screen and (max-width: 767px) {
-    margin-top: 130px;
     margin-bottom: 20px;
   }
 `;
 const SectionHeading = styled.div`
   font-size: 35pt;
-  color: black;
+  color: white;
   text-align: center;
 `;
 const SectionDescription = styled.div`
   font-size: 12pt;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  color: gray;
+  color: #B3B3B3;
   margin-bottom: 40px;
   margin-left: 23px;
   margin-right: 23px;
@@ -57,9 +55,9 @@ const CardDescription = styled.div`
 const ServiceCard = styled.div`
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.22);
   height: auto;
-  min-height: 330px;
+  min-height: 300px;
   width: auto;
-  max-width: 200px;
+  min-width: 200px;
   margin: auto;
   background: white;
   margin-bottom: 15px;
@@ -100,15 +98,15 @@ const ServicesCards = ({ logo, title, description }) => {
 const PortfolioServices = () => {
   return (
     <>
-      <SectionTitles className="text-center text-uppercase">
+      <SectionTitles id="Services" className="text-center text-uppercase">
         Services
       </SectionTitles>
-      <SectionHeading id="Services">WHAT I DO</SectionHeading>
+      <SectionHeading>WHAT I DO</SectionHeading>
       <SectionDescription>
         I am dedicated to providing exceptional photography services that
         capture the essence and beauty of every moment.
       </SectionDescription>
-      <div className="container">
+      <div className="container serivce-container-p">
         <div className="row">
           <ServicesCards
             logo={Marriage}

@@ -5,26 +5,20 @@ import PortfolioAboutMe from "./Aboutme";
 import PortfolioServices from "./Services";
 import { styled } from "styled-components";
 import Pricing from "./Pricing";
+import PortfolioGallery from "./Gallery";
 
-const PricingSection = styled.div`
-  background: #AFB5DE;
+const ServiceSection = styled.div`
+  background: #16192c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+`;
+
+const PricingSection = styled.section`
+  background: #88bfb1;
   padding-top: 20px;
   padding-bottom: 50px;
-
-
 `;
-const SectionTitles = styled.div`
-  font-size: 12pt;
-  color: #4d4d4d;
-  font-family: system-ui;
-  margin-top: 150px;
-  margin-bottom: 50px;
 
-  @media screen and (max-width: 767px) {
-    margin-top: 130px;
-    margin-bottom: 20px;
-  }
-`;
 const PortfolioTemp = () => {
   return (
     <>
@@ -36,18 +30,19 @@ const PortfolioTemp = () => {
         <section>
           <MainSection />
         </section>
-        <section style={{ marginBottom: "150px" }}>
+        <section style={{ marginBottom: "100px" }}>
           <PortfolioAboutMe />
         </section>
-        <section>
+        <ServiceSection>
           <PortfolioServices />
-        </section>
-        <SectionTitles id="Packages" className="text-center text-uppercase">
-        packages
-      </SectionTitles>
+        </ServiceSection>
+
         <PricingSection style={{ marginBottom: "300px" }}>
           <Pricing />
         </PricingSection>
+        <section>
+          <PortfolioGallery />
+        </section>
       </body>
       <footer></footer>
     </>

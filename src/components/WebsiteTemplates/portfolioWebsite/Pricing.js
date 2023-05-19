@@ -2,6 +2,19 @@ import React from "react";
 import { styled } from "styled-components";
 import Checkmark from "../../../assets/images/checkmark.png";
 
+
+
+
+const PackageTitle = styled.div`
+  font-size: 12pt;
+  color: #4d4d4d;
+  font-family: system-ui;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+`;
 const SectionHeading = styled.div`
   font-size: 35pt;
   color: black;
@@ -15,12 +28,18 @@ const SectionDescription = styled.div`
   margin-bottom: 40px;
   margin-left: 23px;
   margin-right: 23px;
+  padding-left: 50px;
+  padding-right: 50px;
 `;
 const PricingColumn = styled.div`
   background: white;
   height: 550px;
   margin-top: 30px;
   border-radius: 1rem;
+
+  @media (max-width: 991.9px) {
+    margin-bottom: 30px;
+  }
 `;
 const PricingColumnCenter = styled.div`
   background: #16192c;
@@ -70,6 +89,11 @@ const PricingCostCenter = styled.div`
   margin-top: 15px;
   margin-bottom: 15px;
 `;
+const PricingCostSpan = styled.span`
+  font-size: 14pt;
+  color: #828282;
+  font-weight: 500;
+`;
 const PricingCoverage = styled.div`
   font-size: 15px;
   color: #4f4f4f;
@@ -86,6 +110,7 @@ const PricingHr = styled.hr`
 const Check = styled.img`
   width: 18px;
   height: 18px;
+  margin-right: 15px;
 `;
 const PricingFeatures = styled.div`
   font-size: 15px;
@@ -132,7 +157,10 @@ const PricingButtonCenter = styled.button`
 const Pricing = () => {
   return (
     <>
-      <SectionHeading id="Services">WHAT I OFFER</SectionHeading>
+      <PackageTitle id="Packages" className="text-center text-uppercase">
+        packages
+      </PackageTitle>
+      <SectionHeading>WHAT I OFFER</SectionHeading>
       <SectionDescription>
         I am dedicated to providing exceptional photography services that
         capture the essence and beauty of every moment.
@@ -145,7 +173,9 @@ const Pricing = () => {
                 <PricingTitles className="col">Standard</PricingTitles>
               </div>
               <div className="row">
-                <PricingCost className="col">$89 /hr</PricingCost>
+                <PricingCost className="col">
+                  $89 <PricingCostSpan>/hr</PricingCostSpan>
+                </PricingCost>
               </div>
               <div className="row">
                 <PricingCoverage className="col">
@@ -199,7 +229,9 @@ const Pricing = () => {
                 </PricingTitlesCenter>
               </div>
               <div className="row">
-                <PricingCostCenter className="col">$129 /hr</PricingCostCenter>
+                <PricingCostCenter className="col">
+                  $129 <PricingCostSpan>/hr</PricingCostSpan>
+                </PricingCostCenter>
               </div>
               <div className="row">
                 <PricingCoverageCenter className="col">
@@ -251,7 +283,9 @@ const Pricing = () => {
                 <PricingTitles className="col">Deluxe</PricingTitles>
               </div>
               <div className="row">
-                <PricingCost className="col">$199 /hr</PricingCost>
+                <PricingCost className="col">
+                  $199 <PricingCostSpan>/hr</PricingCostSpan>
+                </PricingCost>
               </div>
               <div className="row">
                 <PricingCoverage className="col">
