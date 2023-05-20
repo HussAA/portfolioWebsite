@@ -19,6 +19,9 @@ const SectionHeading = styled.div`
   font-size: 35pt;
   color: black;
   text-align: center;
+  @media screen and (max-width:600px) {
+    font-size: 25pt;
+  }
 `;
 const SectionDescription = styled.div`
   font-size: 12pt;

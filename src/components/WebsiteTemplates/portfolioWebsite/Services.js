@@ -11,7 +11,7 @@ import Sports from "../../../assets/images/sport.gif";
 
 const SectionTitles = styled.div`
   font-size: 12pt;
-  color: white;
+  color: gray;
   font-family: system-ui;
   margin-bottom: 50px;
 
@@ -23,6 +23,9 @@ const SectionHeading = styled.div`
   font-size: 35pt;
   color: white;
   text-align: center;
+  @media screen and (max-width:600px) {
+    font-size: 25pt;
+  }
 `;
 const SectionDescription = styled.div`
   font-size: 12pt;
@@ -55,12 +58,18 @@ const CardDescription = styled.div`
 const ServiceCard = styled.div`
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.22);
   height: auto;
-  min-height: 300px;
+  min-height: 330px;
   width: auto;
-  min-width: 200px;
+  min-width: 170px;
   margin: auto;
   background: white;
   margin-bottom: 15px;
+
+  @media screen and (max-width:500px){
+    min-width: 150px;
+    max-width: 230px;
+    min-height: 355px;
+  }
 `;
 
 const OutsideColor = styled.div`

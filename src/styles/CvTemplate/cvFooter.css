@@ -8,13 +8,19 @@
 
 
 .footer-socials-cv-footer{
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(0, 11, 165);
     transition: 0.1s;
 }
 .right-border-cv-footer{
     border-right: 2px solid rgb(0, 0, 0);
     padding-right: 9px;
+    font-size: 15pt;
+}
+@media (max-width:600px) {
+    .right-border-cv-footer{
+        font-size: 12pt;
+    }
 }
 .cv-footer-color{
     background-color: rgb(139, 84, 0);

@@ -1,10 +1,17 @@
 import React from "react";
+import { styled } from "styled-components";
 
+
+
+const MyportfolioLink = styled.a`
+  text-decoration: none;
+  color: blue;
+`;
 const CvFooter = () => {
   return (
     <footer className="col">
       <div
-        className="cv-footer-color p-4"
+        className="cv-footer-color p-2"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -14,10 +21,14 @@ const CvFooter = () => {
         }}
       >
         <div
-          className="right-border-cv-footer"
+          className="right-border-cv-footer text-center"
           style={{ color: "black", fontSize: 20 }}
         >
-          Built by Hussain Alnakhli © {new Date().getFullYear()}
+          Built by{" "}
+          <span>
+            <MyportfolioLink href="/">Hussain Alnakhli</MyportfolioLink>
+          </span>{" "}
+          © {new Date().getFullYear()}
         </div>
 
         <div style={{ marginLeft: "10px" }}>

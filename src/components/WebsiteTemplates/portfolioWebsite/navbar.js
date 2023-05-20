@@ -92,7 +92,7 @@ const NavbarPortfolioIndex = () => {
         </div>
         {/* Navbar Brand web mode */}
         <NavbarBrand className="offset-fullname d-none d-md-block text-uppercase">
-        John Doe
+          John Doe
         </NavbarBrand>
         {/* Socials web mode */}
         <ContactButton className="order-md-3 d-none d-md-block text-uppercase">
@@ -133,7 +133,13 @@ const NavbarPortfolioIndex = () => {
             </div>
           </div>
           {/* toggler mobile mode */}
-          <Hamburger distance="lg" size={25} toggled={isOpen} toggle={setIsOpen} rounded />
+          <Hamburger
+            distance="lg"
+            size={25}
+            toggled={isOpen}
+            toggle={setIsOpen}
+            rounded
+          />
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-4 mt-5 mb-3 d-md-none toggler-order" navbar>
@@ -156,8 +162,11 @@ const NavbarPortfolioIndex = () => {
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Qualifications">
-              Qualifications
+              <NavLink
+                className="navLink text-uppercase"
+                href="#Qualifications"
+              >
+                Qualifications
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
@@ -196,7 +205,10 @@ const NavbarPortfolioIndex = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="underbarItem text-uppercase" href="#Qualifications">
+            <NavLink
+              className="underbarItem text-uppercase"
+              href="#Qualifications"
+            >
               Qualifications
             </NavLink>
           </NavItem>
@@ -212,4 +224,3 @@ const NavbarPortfolioIndex = () => {
 };
 
 export default NavbarPortfolioIndex;
-

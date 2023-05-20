@@ -6,6 +6,8 @@ import PortfolioServices from "./Services";
 import { styled } from "styled-components";
 import Pricing from "./Pricing";
 import PortfolioGallery from "./Gallery";
+import Qualifications from "./qualifications";
+import PortfolioFooter from "./footer";
 
 const ServiceSection = styled.div`
   background: #16192c;
@@ -37,14 +39,19 @@ const PortfolioTemp = () => {
           <PortfolioServices />
         </ServiceSection>
 
-        <PricingSection style={{ marginBottom: "300px" }}>
+        <PricingSection style={{ marginBottom: "100px" }}>
           <Pricing />
         </PricingSection>
+        <section style={{ marginBottom: "100px" }}>
+          <Qualifications />
+        </section>
         <section>
           <PortfolioGallery />
         </section>
       </body>
-      <footer></footer>
+      <footer style={{ marginTop: "100px" }}>
+        <PortfolioFooter />
+      </footer>
     </>
   );
 };

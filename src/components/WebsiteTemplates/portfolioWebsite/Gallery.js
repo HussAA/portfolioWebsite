@@ -38,24 +38,39 @@ const images = (() => {
     return {
       original: i,
       thumbnail: i,
-      thumbnailHeight: 120,
+      thumbnailHeight: 100,
       originalHeight: 500,
     };
   });
 })();
 
-const GalleryTitle = styled.div`
+const GalleryHeading = styled.div`
   font-size: 35pt;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  @media screen and (max-width: 600px) {
+    font-size: 25pt;
+  }
 `;
-
+const GalleryTitle = styled.div`
+  font-size: 12pt;
+  color: #4d4d4d;
+  font-family: system-ui;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+`;
 const PortfolioGallery = () => {
   return (
     <>
+      <GalleryTitle id="Gallery">gallery</GalleryTitle>
+      <GalleryHeading>What I Create</GalleryHeading>
+
       <div className="container">
         <div className="row">
-          <GalleryTitle>GALLERY</GalleryTitle>
           <ReactImageGallery
             disableThumbnailScroll
             showIndex

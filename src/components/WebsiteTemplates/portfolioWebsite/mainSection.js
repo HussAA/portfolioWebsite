@@ -11,7 +11,7 @@ const Slogan = styled.div`
     font-size: 17pt;
   }
   @media screen and (max-width: 521px) {
-    font-size: 12pt;
+    font-size: 13pt;
   }
 `;
 const SloganPortfolio = () => {
