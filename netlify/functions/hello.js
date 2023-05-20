@@ -19,16 +19,16 @@ exports.handler = async function (event, context) {
         subject: `Subject: ${subject} From: ${email}`,
         text: message,
       };
-      sgMail
-        .send(msg)
-        .then((response) => {
-          console.log(response[0].statusCode);
-          console.log(response[0].headers);
-        })
-        .catch((error) => {
-          console.error(error);
-        });
-      console.log(msg);
+
+      const response = await sgMail.send(msg);
+      // .then((response) => {
+      //   console.log(response[0].statusCode);
+      //   console.log(response[0].headers);
+      // })
+      // .catch((error) => {
+      //   console.error(error);
+      // });
+      console.log(response);
       return {
         statusCode: 200,
         body: JSON.stringify("Hello"),
