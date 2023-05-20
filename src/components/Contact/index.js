@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   const addData = async (form) => {
-    await fetch("https://hussainalnakhli.com/.netlify/functions/app", {
+    await fetch("https://hussainalnakhli.com/.netlify/functions/hello.js", {
       method: "POST",
       body: JSON.stringify({ form }),
 
