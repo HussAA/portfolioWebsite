@@ -24,3 +24,4 @@ import "./src/styles/portfolioTemplate/pricing.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import "./src/styles/portfolioTemplate/qualifications.css";
 import "./src/styles/portfolioTemplate/footer.css"
+import "./src/styles/myPortfolio/scrollButton.css"

@@ -9,6 +9,8 @@ import Education from "../components/Education";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import ScrollArrow from "../components/scrollButton/scrollButton"
+
 // import ComingSoon from "../components/ComingSoon";
 const Index = () => {
   return (
@@ -73,6 +75,9 @@ const Index = () => {
 
           <section id="Contact">
             <Contact />
+          </section>
+          <section>
+            <ScrollArrow/>
           </section>
         </main>
 

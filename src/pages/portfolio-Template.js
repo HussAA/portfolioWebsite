@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioTemp from "../components/WebsiteTemplates/portfolioWebsite";
 import ComingSoon from "../components/ComingSoon";
-
+import ScrollArrow from "../components/scrollButton/scrollButton"
 
 const PortfolioTemplate = () => {
   return (
@@ -13,7 +13,7 @@ const PortfolioTemplate = () => {
       <section>
         <PortfolioTemp />
       </section>
-
+      <ScrollArrow/>
       
     </>
   );

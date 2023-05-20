@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             <div className="row">
               <div className="col">
-                <div className="border-start border-dark border-2 pt-4 pb-5">
+                <div className="border-start border-dark border-2 pt-4 pb-3">
                   <form onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col">

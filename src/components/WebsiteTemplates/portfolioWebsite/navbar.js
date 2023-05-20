@@ -47,7 +47,6 @@ const UnderBar = styled.nav`
 
 const NavbarPortfolioIndex = () => {
   const [isOpen, setIsOpen] = useState(false);
-  //   const toggle = () => setIsOpen(!isOpen);
   return (
     <>
       <Navbar className="navbar navbar-expand-md bar">
