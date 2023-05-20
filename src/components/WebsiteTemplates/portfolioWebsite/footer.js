@@ -21,7 +21,7 @@ const PortfolioFooter = () => {
           <div className="right-border-cv-footer text-center">
             Built by
             <span>
-              <MyportfolioLink href="/">Hussain Alnakhli</MyportfolioLink>
+              <MyportfolioLink href="/"> Hussain Alnakhli</MyportfolioLink>
             </span>
             © {new Date().getFullYear()}
           </div>
