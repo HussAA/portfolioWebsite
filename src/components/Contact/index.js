@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   const addData = async (form) => {
-    await fetch("https://iyvtfduswobmzt2wa5fktqltrq0lddtr.lambda-url.us-east-2.on.aws/sendEmail", {
+    await fetch("https://hussainalnakhli.com/.netlify/functions/app", {
       method: "POST",
       body: JSON.stringify({ form }),
 
