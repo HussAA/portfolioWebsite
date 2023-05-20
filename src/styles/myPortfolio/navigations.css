@@ -99,20 +99,20 @@ html {
   box-shadow: 1px 1px 25px 0px #000000;
 }
 .sidebar-height-m{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 33px;
+  margin-bottom: 33px;
 }
 
-@media (max-height:870px) {
+@media (max-height:820px) {
   .sidebar-height-m{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 a.item {
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #cfcfcf;
   display: block;
   text-shadow: 3px 3px 8px 10px #331f00;
@@ -123,6 +123,7 @@ a.item:hover,
 a.item:focus {
   color: #6487d3;
   transform: scale(1.03, 1.03);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 991px) {
