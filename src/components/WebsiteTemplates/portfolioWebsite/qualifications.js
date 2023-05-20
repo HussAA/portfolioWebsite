@@ -155,7 +155,7 @@ const Qualifications = () => {
   const [isExp, setIsExp] = useState(false);
   return (
     <>
-      <QualificationsTitle id="Qualifications">packages</QualificationsTitle>
+      <QualificationsTitle id="Qualifications">Qualifications</QualificationsTitle>
       <QualificationsHeading>
         what i've learned & experienced
       </QualificationsHeading>
