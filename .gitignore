@@ -2,6 +2,3 @@ node_modules
 .cache
 public
 package.json
-# Local Netlify folder
-.netlify
-.env
