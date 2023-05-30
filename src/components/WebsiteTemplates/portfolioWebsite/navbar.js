@@ -42,11 +42,13 @@ const UnderBar = styled.nav`
   background-color: #ffffff;
   width: 100%;
   height: 65px;
-  /* box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17); */
 `;
 
 const NavbarPortfolioIndex = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
+  
   return (
     <>
       <Navbar className="navbar navbar-expand-md bar">
@@ -143,25 +145,34 @@ const NavbarPortfolioIndex = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-4 mt-5 mb-3 d-md-none toggler-order" navbar>
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Welcome">
+              <NavLink onClick={() => {
+                    toggle();
+                  }} className="navLink text-uppercase" href="#Welcome">
                 About Me
               </NavLink>
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Services">
+              <NavLink onClick={() => {
+                    toggle();
+                  }} className="navLink text-uppercase" href="#Services">
                 Services
               </NavLink>
             </NavItem>
 
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Packages">
+              <NavLink onClick={() => {
+                    toggle();
+                  }} className="navLink text-uppercase" href="#Packages">
                 Packages
               </NavLink>
             </NavItem>
 
             <NavItem className="navItem">
               <NavLink
+              onClick={() => {
+                toggle();
+              }}
                 className="navLink text-uppercase"
                 href="#Qualifications"
               >
@@ -169,7 +180,9 @@ const NavbarPortfolioIndex = () => {
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
-              <NavLink className="navLink text-uppercase" href="#Gallery">
+              <NavLink onClick={() => {
+                    toggle();
+                  }} className="navLink text-uppercase" href="#Gallery">
                 Gallery
               </NavLink>
             </NavItem>
