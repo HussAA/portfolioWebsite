@@ -7,6 +7,15 @@ const PresentBg = styled.span`
   padding: 3px 7px 3px 7px;
   border-radius: 7px;
 `;
+
+const MyCvLink = styled.a`
+  text-decoration: none;
+  color: lightgray;
+  transition: 0.2s;
+  &:hover {
+    color: #adadad;
+  }
+`;
 const MyResume = () => {
   return (
     <>
@@ -34,7 +43,7 @@ const MyResume = () => {
                     <div className="row mb-2">
                       <div className="col leftCol-font-item">
                         <i className="col bi bi-house-door me-3" />
-                        Kingston, ON
+                        Ontario, Canada
                       </div>
                     </div>
                     <div className="row mb-2">
@@ -66,7 +75,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-75">75%</div>
+                        <div className="skill-bar-85">85%</div>
                       </div>
                     </div>
                     <div className="row mb-2">
@@ -74,7 +83,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-90">90%</div>
+                        <div className="skill-bar-95">95%</div>
                       </div>
                     </div>
                     <div className="row mb-2">
@@ -82,7 +91,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-25">25%</div>
+                        <div className="skill-bar-35">35%</div>
                       </div>
                     </div>
                     <div className="row mb-2">
@@ -90,7 +99,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-65">65%</div>
+                        <div className="skill-bar-80">80%</div>
                       </div>
                     </div>
                   </div>
@@ -110,7 +119,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-80">80%</div>
+                        <div className="skill-bar-90">90%</div>
                       </div>
                     </div>
                     <div className="row mb-2">
@@ -118,7 +127,7 @@ const MyResume = () => {
                     </div>
                     <div className="row mb-2">
                       <div className="col skill-bar-full">
-                        <div className="skill-bar-75">75%</div>
+                        <div className="skill-bar-80">80%</div>
                       </div>
                     </div>
                   </div>
@@ -151,14 +160,14 @@ const MyResume = () => {
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            May 2023 - Aug 2023
+                            Jan 2023 - APR 2023
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
                           <div className="col">
-                            [Job Description] Lorem ipsum dolor sit amet. magnam
-                            consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic.
+                            Diagnosed and repaired hardware and software
+                            problems on various computer systems, including
+                            desktops and Apple products.
                           </div>
                         </div>
                       </div>
@@ -179,9 +188,8 @@ const MyResume = () => {
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
                           <div className="col">
-                            [Job Description] Lorem ipsum dolor sit amet. magnam
-                            consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic.
+                            Worked as a freelance web developer, developed React
+                            web applications for small businesses.
                           </div>
                         </div>
                       </div>
@@ -191,20 +199,21 @@ const MyResume = () => {
                       <div className="col">
                         <div className="row mb-2">
                           <div className="col fs-4">
-                            Busser / The Keg Steakhouse + Bar
+                            Full-Stack Developer / Internship
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
                           <div className="col orange-color">
                             <i className="bi bi-calendar3 me-3" />
-                            Oct 2020 - Nov 2021
+                            May 2023 - Aug 2023
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-6">
                           <div className="col">
-                            [Job Description] Lorem ipsum dolor sit amet. magnam
-                            consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic.
+                            Within my internship at CompuFix, I am primarily
+                            responsible for the backend of their website,
+                            specifically building a Heatmap using Node.js,
+                            Express.js and PostgreSQL for the backend website.
                           </div>
                         </div>
                       </div>
@@ -246,7 +255,7 @@ const MyResume = () => {
                       <div className="col">
                         <div className="row mb-2">
                           <div className="col fs-4">
-                            REACTJS/JAVASCRIPT/HTML&CSS
+                            Full-Stack Development Certificates
                           </div>
                         </div>
                         <div className="row mb-2 ms-1 fs-5">
@@ -304,7 +313,16 @@ const MyResume = () => {
               className="right-border-cv-footer"
               style={{ color: "black", fontSize: 20 }}
             >
-              Hussain Alnakhli © {new Date().getFullYear()}
+              <span>
+                <MyCvLink
+                  href="/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Hussain Alnakhli
+                </MyCvLink>
+              </span>{" "}
+              © {new Date().getFullYear()}
             </div>
 
             <div style={{ marginLeft: "10px" }}>

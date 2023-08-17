@@ -9,7 +9,7 @@ const PortfolioFooter = () => {
     <>
       <footer className="col">
         <div
-          className="footer-bg p-2"
+          className="footer-bg p-3"
           style={{
             display: "flex",
             flexDirection: "row",

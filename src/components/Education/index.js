@@ -58,12 +58,15 @@ const Education = () => {
                       for building interactive web applications, namely
                       <span className="fw-bold">
                         {" "}
-                        HTML, CSS, JavaScript, and ReactJS.
+                        HTML/CSS, JavaScript, React.js, Git/Github, Node.js,
+                        Bootstrap.
                       </span>
                       <br />
-                      <br /> Currently, I am getting into backend development to
-                      expand my knowledge and build more full-stack websites
-                      like this one.
+                      <br /> Currently, I am undertaking an internship as a
+                      Full-Stack developer, where I am tasked with developing a
+                      specialized feature for the CompuFix website's backend.
+                      This opportunity will allow me to obtain more
+                      understanding about backend development.
                     </p>
                   )}
                 </span>
@@ -76,7 +79,9 @@ const Education = () => {
                     <p className="fs-5 text-white">
                       I graduated from{" "}
                       <span className="fw-bold">
-                        KCVI with a high school diploma.</span> During my high school years at KCVI, I enrolled in a
+                        KCVI with a high school diploma.
+                      </span>{" "}
+                      During my high school years at KCVI, I enrolled in a
                       programming course which I struggled to comprehend
                       initially due to the language barrier of English. However,
                       my passion for web development grew exponentially.

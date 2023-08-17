@@ -47,7 +47,7 @@ const Experience = () => {
                   <i className="experience-logo bi bi-laptop" />
                 </div>
                 <div className="px-3">
-                  <div className="fs-5 experience-icons-font fw-bold">IT Internship, CompuFix</div>
+                  <div className="fs-5 experience-icons-font fw-bold">IT Specialist, Co-op</div>
                   
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Experience = () => {
                   <i className="experience-logo bi bi-motherboard" />
                 </div>
                 <div className="px-3">
-                  <div className="fs-5 experience-icons-font fw-bold">Web Developer, Internship</div>
+                  <div className="fs-5 experience-icons-font fw-bold">Full Stack, Internship</div>
                 </div>
               </div>
             </div>

@@ -64,7 +64,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="https://github.com/HussAA"
+                href="https://facebook.com/"
               >
                 <i className="bi bi-facebook" />
               </a>
@@ -74,7 +74,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="/"
+                href="https://www.linkedin.com/"
               >
                 <i className="bi bi-linkedin" />
               </a>
@@ -84,7 +84,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="/"
+                href="https://www.instagram.com/"
               >
                 <i className="bi bi-instagram" />
               </a>
@@ -107,7 +107,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="https://github.com/HussAA"
+                href="https://www.facebook.com/"
               >
                 <i className="bi bi-facebook" />
               </a>
@@ -117,7 +117,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="/"
+                href="https://www.linkedin.com/"
               >
                 <i className="bi bi-linkedin" />
               </a>
@@ -127,7 +127,7 @@ const NavbarPortfolioIndex = () => {
                 target="_blank"
                 className="navbar-socials"
                 rel="noreferrer"
-                href="/"
+                href="https://www.instagram.com/"
               >
                 <i className="bi bi-instagram" />
               </a>

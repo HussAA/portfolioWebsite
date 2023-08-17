@@ -101,17 +101,17 @@ to {
 }
 @media (max-width:1123px) {
     .edu-min-height{
-        min-height: 310px;
+        min-height: 370px;
     }
 }
 @media (max-width:523px) {
     .edu-min-height{
-        min-height: 650px !important;
+        min-height: 500px !important;
     }
 }
 @media (max-width:630px) {
     .edu-min-height{
-        min-height: 450px;
+        min-height: 490px;
     }
     .education-padding{
         padding-left: 50px;

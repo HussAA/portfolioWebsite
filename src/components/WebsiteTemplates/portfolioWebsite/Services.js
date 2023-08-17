@@ -119,42 +119,42 @@ const PortfolioServices = () => {
         <div className="row">
           <ServicesCards
             logo={Marriage}
-            title="Wedding Photography"
+            title="Wedding"
             description="Capture the precious moments of weddings."
           />
           <ServicesCards
             logo={Fashion}
-            title="Fashion Photography"
+            title="Fashion"
             description="Offer fashion shoots for models, designers, or clothing brands."
           />
           <ServicesCards
             logo={Event}
-            title="Event Photography"
+            title="Event"
             description="Cover various events such as conferences, parties, and corporate gatherings."
           />
           <ServicesCards
             logo={Portrait}
-            title="Portrait Photography"
+            title="Portrait"
             description="Provide professional portrait sessions for individuals or families."
           />
           <ServicesCards
             logo={RealEstate}
-            title="Real Estate Photography"
+            title="Real Estate"
             description="Capture properties for real estate agents or homeowners looking to sell or rent."
           />
           <ServicesCards
             logo={Sports}
-            title="Sports Photography"
+            title="Sports"
             description="Cover sporting events, capturing action shots and athlete performances."
           />
           <ServicesCards
             logo={WildLife}
-            title="Wildlife Photography"
+            title="Wildlife"
             description="Capture the beauty and behavior of animals in their natural habitats."
           />
           <ServicesCards
             logo={Products}
-            title="Products Photography"
+            title="Products"
             description="Highlight products with high-quality images for e-commerce or advertising purposes."
           />
         </div>
