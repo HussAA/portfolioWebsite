@@ -1,0 +1,173 @@
+/* Services */
+.icon i {
+    font-size: 25pt;
+    line-height: 0;
+  }
+  
+  .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    color: rgb(92, 159, 36);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+  }
+
+/* Why Us */
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title .section-h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5c9f24;
+}
+
+.section-title .section-p {
+    margin-bottom: 0;
+}
+.box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+}
+.box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #8ed851;
+}
+.box-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #2a2a2a;
+}
+.box-p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* FAQ */
+
+.icon-help {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 100px;
+    color: #9cdc66;
+}
+
+/* .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+  } */
+  
+  .faq-item {
+    margin-bottom: 10px;
+    list-style:none;
+  }
+  .faq-question span {
+    flex-grow: 1;
+  }
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .faq-question:hover {
+    color: #5c9f24; /* Text color on hover (green) */
+  }
+  
+  .faq-question:active,
+  .faq-question:focus {
+    color: #5c9f24; /* Text color when clicked or focused (green) */
+  }
+
+/* Resume */
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #d43076;
+    position: relative;
+}
+
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #d43076;
+} 
+.resume-h{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c4964;
+    margin-bottom: 10px;
+}
+.resume-title{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4b7dab;
+    font-family: "Poppins", sans-serif;
+}
+.resume-h5{
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.resume-header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #345676;
+}
+.resume-header::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #d43076;
+    bottom: 0;
+    left: 0;
+    
+}
+.section-bg{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
